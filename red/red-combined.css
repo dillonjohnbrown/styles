@@ -2907,6 +2907,22 @@ TODO: Make these rules apply globally and add exceptions where needed
   padding: 3px 10px;
 }
 /* User info grid */
+#userinfo_major {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 0;
+}
+#nav_upload {
+  grid-area: 1 / 1 / 2 / 2;
+}
+#nav_invite {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#nav_donate {
+  grid-area: 1 / 3 / 2 / 4;
+}
 #userinfo_minor {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -2946,6 +2962,28 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #nav_better {
   grid-area: 5 / 3 / 6 / 5;
+}
+#userinfo_stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+#stats_seeding {
+  grid-area: 1 / 1 / 2 / 2;
+}
+#stats_leeching {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#stats_ratio {
+  grid-area: 2 / 1 / 3 / 2;
+}
+#stats_required {
+  grid-area: 2 / 2 / 3 / 3;
+}
+#fl_tokens {
+  grid-area: 3 / 1 / 4 / 3;
 }
 #searchbars {
   padding: 10px 15px;
@@ -2998,5 +3036,10 @@ body {
 }
 #searchbars {
   grid-area: 2 / 1 / 3 / 2;
+}
+#userinfo .brackets:before,
+#userinfo .brackets:after {
+  content: "";
+  display: none;
 }
 /*# sourceMappingURL=red-combined.css.map */

@@ -1080,10 +1080,6 @@ Date:    23/01/2011
   #lightbox img {
     max-width: 800px;
     max-height: 100%;
-    padding: 10px;
-    background: #444;
-    -webkit-box-shadow: 0 2px 5px #222;
-    -moz-box-shadow: 0 2px 5px #222;
   }
   #curtain {
     z-index: 0;
@@ -2597,18 +2593,18 @@ All icons Copyright (c) Callum Jefferies 2011
     background: #fff;
     color: #444;
   }
-  #artistcomplete li:first-child {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
+  #artistcomplete li {
+    display: block !important;
+    -webkit-box-sizing: border-box;
+    padding: 5px 10px;
   }
   #artistcomplete li:last-child {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
   }
-  #artistcomplete li {
-    display: block !important;
-    -webkit-box-sizing: border-box;
-    padding: 5px 10px;
+  #artistcomplete li:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
   }
   #artistcomplete li.highlight {
     background: #f5f5f5;
@@ -2627,10 +2623,6 @@ All icons Copyright (c) Callum Jefferies 2011
   #lightbox img {
     max-width: 800px;
     max-height: 100%;
-    padding: 10px;
-    background: #fff;
-    -webkit-box-shadow: 0 2px 5px #222;
-    -moz-box-shadow: 0 2px 5px #222;
   }
   #curtain {
     z-index: 0;

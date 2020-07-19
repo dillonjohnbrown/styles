@@ -282,6 +282,13 @@ Date:    23/01/2011
   #userinfo_stats span {
     color: #fff !important;
   }
+  #userinfo_stats .stat {
+    font-weight: 700;
+    margin-left: 2px;
+  }
+  #userinfo_stats a {
+    color: #f4f4f4;
+  }
   #stats_leeching,
   #stats_required {
     top: 32px;
@@ -293,16 +300,6 @@ Date:    23/01/2011
   #fl_tokens {
     top: 5.4em;
     left: 128px;
-  }
-  #userinfo_stats {
-    font-weight: bold;
-  }
-  #userinfo_stats .stat {
-    font-weight: 700;
-    margin-left: 2px;
-  }
-  #userinfo_stats a {
-    color: #f4f4f4;
   }
   #discog_table.torrent_table .colhead_dark td:first-child {
     width: 50px !important;
@@ -1848,7 +1845,11 @@ All icons Copyright (c) Callum Jefferies 2011
     font-size: 10px;
   }
   #userinfo_stats span {
-    color: #fff !important;
+    color: #000 !important;
+  }
+  #userinfo_stats .stat {
+    font-weight: 700;
+    margin-left: 2px;
   }
   #stats_leeching,
   #stats_required {
@@ -1861,16 +1862,6 @@ All icons Copyright (c) Callum Jefferies 2011
   #fl_tokens {
     top: 5.4em;
     left: 128px;
-  }
-  #userinfo_stats {
-    font-weight: bold;
-  }
-  #userinfo_stats .stat {
-    font-weight: 700;
-    margin-left: 2px;
-  }
-  #userinfo_stats a {
-    color: #f4f4f4;
   }
   #discog_table.torrent_table .colhead_dark td:first-child {
     width: 50px !important;
@@ -3113,5 +3104,11 @@ TODO: Make these rules apply globally and add exceptions where needed
   .torrentdetails {
     background-color: #343434;
   }
+}
+.vote_matches_table {
+  min-width: 695px;
+}
+.vote_matches_table a {
+  float: right;
 }
 /*# sourceMappingURL=red-combined.css.map */

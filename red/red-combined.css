@@ -188,14 +188,8 @@ Date:    23/01/2011
     position: absolute;
     top: -100px;
   }
-  #userinfo_major,
-  #userinfo_minor {
-    padding: 10px 15px;
-    -webkit-box-sizing: border-box;
-  }
-  #userinfo_minor {
-    background: #494949;
-  }
+  #userinfo,
+  #userinfo_minor,
   #userinfo_major {
     background-color: #494949;
   }
@@ -230,7 +224,6 @@ Date:    23/01/2011
     margin-bottom: 40px;
   }
   #userinfo_stats {
-    background: #3d3d3d;
     color: #efefef;
   }
   #userinfo_stats li {
@@ -1685,14 +1678,8 @@ All icons Copyright (c) Callum Jefferies 2011
     position: absolute;
     top: -100px;
   }
-  #userinfo_major,
-  #userinfo_minor {
-    padding: 10px 15px;
-    -webkit-box-sizing: border-box;
-  }
-  #userinfo_minor {
-    background: #ececec;
-  }
+  #userinfo,
+  #userinfo_minor,
   #userinfo_major {
     background: #ececec;
   }
@@ -1727,7 +1714,6 @@ All icons Copyright (c) Callum Jefferies 2011
     margin-bottom: 40px;
   }
   #userinfo_stats {
-    background: #ececec;
     color: #000;
   }
   #userinfo_stats li {
@@ -3042,13 +3028,8 @@ input[type="password"],
   border-radius: 2px;
   transition: all 1s ease;
 }
-#userinfo_username {
-  padding: 15px 0 15px 15px;
-  display: flex;
-  align-items: baseline;
-}
 #userinfo_username li {
-  display: block;
+  display: inline-block;
 }
 #userinfo {
   display: grid;
@@ -3056,6 +3037,9 @@ input[type="password"],
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0;
   grid-row-gap: 0;
+}
+#userinfo li {
+  list-style: none;
 }
 #userinfo_username {
   grid-area: 1 / 1 / 2 / 5;
@@ -3068,6 +3052,12 @@ input[type="password"],
 }
 #userinfo_minor {
   grid-area: 3 / 1 / 4 / 5;
+}
+#userinfo_stats,
+#userinfo_major,
+#userinfo_minor {
+  display: flex;
+  justify-content: space-evenly;
 }
 body {
   padding: 30px 20px 60px 20px;

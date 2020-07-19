@@ -21,9 +21,7 @@ Date:    23/01/2011
     color: #888 !important;
   }
   body {
-    padding: 75px 20px 60px 20px;
     background: #303030 !important;
-    font: 9pt/14pt -apple-system;
     color: #eee;
   }
   table {
@@ -190,13 +188,8 @@ Date:    23/01/2011
     position: absolute;
     top: -100px;
   }
-  #searchbars,
-  #userinfo_stats {
-    margin-top: 55px;
-  }
   #userinfo_major,
   #userinfo_minor {
-    position: absolute;
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
   }
@@ -1542,9 +1535,7 @@ All icons Copyright (c) Callum Jefferies 2011
     padding: 0;
   }
   body {
-    padding: 75px 20px 60px 20px;
     background: #f2f2f2 !important;
-    font: 9pt/14pt -apple-system;
   }
   table {
     border-collapse: collapse;
@@ -1694,13 +1685,8 @@ All icons Copyright (c) Callum Jefferies 2011
     position: absolute;
     top: -100px;
   }
-  #searchbars,
-  #userinfo_stats {
-    margin-top: 55px;
-  }
   #userinfo_major,
   #userinfo_minor {
-    position: absolute;
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
   }
@@ -3022,11 +3008,7 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #userinfo_minor {
   display: flex;
-  flex-direction: column;
-  width: 245px;
-  right: 0;
-  z-index: 0;
-  border-radius: 50px;
+  flex-grow: 2;
 }
 #userinfo_minor li {
   display: block;
@@ -3067,5 +3049,12 @@ input[type="password"],
 }
 #userinfo_username li {
   display: block;
+}
+#userinfo {
+  display: flex;
+}
+body {
+  padding: 30px 20px 60px 20px;
+  font: 9pt/14pt -apple-system;
 }
 /*# sourceMappingURL=red-combined.css.map */

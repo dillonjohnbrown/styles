@@ -41,6 +41,9 @@ Date:    23/01/2011
   }
   a:hover {
     color: #9acbfb;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #9acbfb;
+            text-decoration-color: #9acbfb;
   }
   h1,
   h2,
@@ -806,13 +809,12 @@ Date:    23/01/2011
   }
   .group_torrent td span {
     float: right;
-    background-color: #4d4d4d;
-    border-radius: 4px;
   }
   .linkbox {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #bbb;
+    text-align: center;
   }
   .linkbox.notify_filter_links {
     margin-bottom: 5px;
@@ -1433,6 +1435,9 @@ Date:    23/01/2011
   .linkbox .brackets {
     padding: 1px 4px;
   }
+  .preview_submit {
+    text-align: right;
+  }
   .preview_submit input[type=button] {
     margin: 10px 10px 10px 0px;
   }
@@ -1572,7 +1577,7 @@ Date:    23/01/2011
   .edition_info .tooltip {
     background: white;
     border-radius: 50%;
-    padding: 1px 5px;
+    padding: 3px 6px;
     color: #FB574C;
     margin-right: 5px;
   }
@@ -1613,12 +1618,16 @@ All icons Copyright (c) Callum Jefferies 2011
   a {
     text-decoration: none;
     color: #3b7ab0;
+    transition: all 0.2s ease;
   }
   a img {
     border: none;
   }
   a:hover {
     color: #448cc8;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #448cc8;
+            text-decoration-color: #448cc8;
   }
   h1,
   h2,
@@ -1829,8 +1838,8 @@ All icons Copyright (c) Callum Jefferies 2011
     height: 62px;
     padding: 10px 14px;
     border-radius: 2px;
-    background: #444;
-    color: #fff;
+    background: #ececec;
+    color: #000;
   }
   #userinfo_stats li {
     display: block !important;
@@ -2356,6 +2365,7 @@ All icons Copyright (c) Callum Jefferies 2011
   .linkbox {
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: center;
   }
   .linkbox.notify_filter_links {
     margin-bottom: 5px;
@@ -2987,6 +2997,9 @@ TODO: Make these rules apply globally and add exceptions where needed
   .linkbox .brackets {
     padding: 1px 4px;
   }
+  .preview_submit {
+    text-align: right;
+  }
   .preview_submit input[type=button] {
     margin: 10px 10px 10px 0px;
   }
@@ -3089,6 +3102,16 @@ TODO: Make these rules apply globally and add exceptions where needed
   .leechers img {
     height: 15px;
     width: auto;
+  }
+  .edition_info .tooltip {
+    background: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    color: #FB574C;
+    margin-right: 5px;
+  }
+  .torrentdetails {
+    background-color: #343434;
   }
 }
 /*# sourceMappingURL=red-combined.css.map */

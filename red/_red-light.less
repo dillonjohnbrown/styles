@@ -35,14 +35,15 @@ table {
 a {
     text-decoration: none;
     color: #3b7ab0;
-}
-
-a img {
-    border: none;
-}
-
-a:hover {
-    color: #448cc8;
+    transition: all .2s ease;
+    img {
+    	border: none;
+    }
+    &:hover {
+    	color: #448cc8;
+    	text-decoration: underline;
+    	text-decoration-color: #448cc8;
+    }
 }
 
 h1,h2,h3 {
@@ -215,8 +216,8 @@ h1.hidden {
     height: 62px;
     padding: 10px 14px;
     border-radius: 2px;
-    background: #444;
-    color: #fff;
+    background: #ececec;
+    color: #000;
 }
 
 #userinfo_stats li {
@@ -764,6 +765,7 @@ body#index #recommended #vanityhouse {
 .linkbox {
     margin-top: 15px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .linkbox.notify_filter_links {
@@ -1460,7 +1462,8 @@ p {
     width: 100%;
 }
 
-.brackets:before, .brackets:after {
+.brackets:before,
+.brackets:after {
     content: "";
 }
 
@@ -1468,8 +1471,11 @@ p {
     padding: 1px 4px;
 }
 
-.preview_submit input[type=button] {
-    margin: 10px 10px 10px 0px
+.preview_submit {
+	text-align: right;
+	input[type=button] {
+    	margin: 10px 10px 10px 0px
+    }
 }
 
 input[type="checkbox"] {
@@ -1583,7 +1589,20 @@ select:focus, select:active {
     border-top: 3px solid #afafaf;
 }
 
-.seeders img, .snatches img, .leechers img {
+.seeders img,
+.snatches img,
+.leechers img {
     height: 15px;
     width: auto;
+}
+
+.edition_info .tooltip {
+    background: white;
+    border-radius: 50%;
+    padding: 3px 6px;
+    color: #FB574C;
+    margin-right: 5px;
+}
+.torrentdetails {
+	background-color: #343434;
 }

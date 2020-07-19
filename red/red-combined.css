@@ -2913,6 +2913,7 @@ TODO: Make these rules apply globally and add exceptions where needed
   grid-template-rows: 1fr;
   grid-column-gap: 5px;
   grid-row-gap: 0;
+  text-align: center;
 }
 #nav_upload {
   grid-area: 1 / 1 / 2 / 2;
@@ -2986,8 +2987,8 @@ TODO: Make these rules apply globally and add exceptions where needed
   grid-area: 3 / 1 / 4 / 3;
 }
 #searchbars {
-  padding: 10px 15px;
-  max-height: 60px;
+  padding: 10px;
+  max-height: 56px;
 }
 #searchbars ul {
   display: grid;
@@ -3026,6 +3027,7 @@ input[type="password"],
   padding: 5px;
   border-radius: 2px;
   transition: all 1s ease;
+  width: -webkit-fill-available;
 }
 #userinfo_username li {
   display: inline-block;

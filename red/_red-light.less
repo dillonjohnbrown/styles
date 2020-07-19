@@ -119,10 +119,9 @@ h3 {
     top: -100px;
 }
 
-#userinfo,
-#userinfo_minor,
-#userinfo_major {
-    background: #ececec;
+#userinfo {
+    background: #E3E4E6;
+    border: 1px solid #aeaeae;
 }
 
 #userinfo_major,
@@ -192,11 +191,9 @@ h1.hidden {
 
 button,
 input[type="button"],
-input[type="submit"],
-#userinfo_username .brackets a {
+input[type="submit"] {
     cursor: pointer;
     padding: 6px 8px;
-    font: 10px Lato, Helvetica,Arial,sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -207,17 +204,9 @@ input[type="submit"],
     font-weight: 700;
 }
 
-#userinfo_username .brackets a {
-    letter-spacing: 0;
-    text-transform: lowercase;
-    font-size: 12px;
-}
-
-
 button:active,
 input[type="button"]:active,
-input[type="submit"]:active,
-#userinfo_username .brackets a:active {
+input[type="submit"]:active {
     background: -webkit-gradient(linear,left 40%,left 120%,from(#575757),to(#5f5f5f));
     background: -moz-linear-gradient(center bottom,#5f5f5f,#575757);
 }
@@ -228,18 +217,6 @@ input[type="submit"]:active,
     font-weight: 700;
 }
 
-#userinfo_username .brackets a {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-#userinfo_username .brackets:last-child a {
-    border-left: none;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
 
 input[type="submit"]:active {
     -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15),inset 0 0 5px rgba(0,0,0,0.02),inset -1px 1px 0 rgba(255,255,255,0.12);

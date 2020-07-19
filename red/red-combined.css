@@ -40,7 +40,8 @@ Date:    23/01/2011
   a:hover {
     color: #9acbfb;
     text-decoration: underline;
-    text-decoration-color: #9acbfb;
+    -webkit-text-decoration-color: #9acbfb;
+            text-decoration-color: #9acbfb;
   }
   h1,
   h2,
@@ -269,7 +270,6 @@ Date:    23/01/2011
   input[type="button"]:active,
   input[type="submit"]:active,
   #userinfo_username .brackets a:active {
-    background: -webkit-gradient(linear, left 40%, left 120%, from(#575757), to(#5f5f5f));
     background: -moz-linear-gradient(center bottom, #5f5f5f, #575757);
   }
   #userinfo_username a {
@@ -688,7 +688,6 @@ Date:    23/01/2011
   .hide_torrents a {
     background-position: center top;
     background-size: cover;
-    -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
   }
   .show_torrents a {
@@ -705,8 +704,6 @@ Date:    23/01/2011
     text-align: center;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
   }
   #discog_table .box.center a {
@@ -839,8 +836,6 @@ Date:    23/01/2011
     padding: 10px;
     background: #3d3d3d;
     border: 1px solid #4f4f4f;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
   }
   #torrents .filter_torrents .box.pad,
@@ -851,8 +846,6 @@ Date:    23/01/2011
     padding: 15px !important;
     background: #444;
     border: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
   }
   #collage div.thin form table {
@@ -1382,7 +1375,6 @@ Date:    23/01/2011
     border-radius: 1px;
     color: white;
     padding: 0px 0px 0 4px !important;
-    -webkit-transform: translate3d(0px, 10px, 0);
     transform: translate3d(0px, 10px, 0);
   }
   .tooltipster-base .tooltipster-content {
@@ -1537,7 +1529,8 @@ All icons Copyright (c) Callum Jefferies 2011
   a:hover {
     color: #448cc8;
     text-decoration: underline;
-    text-decoration-color: #448cc8;
+    -webkit-text-decoration-color: #448cc8;
+            text-decoration-color: #448cc8;
   }
   h1,
   h2,
@@ -1747,7 +1740,6 @@ All icons Copyright (c) Callum Jefferies 2011
   input[type="button"]:active,
   input[type="submit"]:active,
   #userinfo_username .brackets a:active {
-    background: -webkit-gradient(linear, left 40%, left 120%, from(#575757), to(#5f5f5f));
     background: -moz-linear-gradient(center bottom, #5f5f5f, #575757);
   }
   #userinfo_username a {
@@ -1846,8 +1838,9 @@ All icons Copyright (c) Callum Jefferies 2011
     height: 0;
   }
   #searchbars {
-    background: #ececec;
+    background: #e3e4e6;
     border: 1px solid #aeaeae;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   }
   #menu {
     background-color: #E3E4E6;
@@ -2058,7 +2051,6 @@ All icons Copyright (c) Callum Jefferies 2011
     border-right: 1px solid #aeaeae !important;
   }
   .torrent_table .group {
-    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#eee));
     background: -moz-linear-gradient(center bottom, #eee, #f3f3f3);
   }
   .torrent_table .group strong {
@@ -2146,16 +2138,12 @@ All icons Copyright (c) Callum Jefferies 2011
     height: 25px;
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0OTI5OTgxQ0I0RkQxMUU2QjAzQkM0OUFDQzA2MDYzQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0OTI5OTgxREI0RkQxMUU2QjAzQkM0OUFDQzA2MDYzQiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ5Mjk5ODFBQjRGRDExRTZCMDNCQzQ5QUNDMDYwNjNCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ5Mjk5ODFCQjRGRDExRTZCMDNCQzQ5QUNDMDYwNjNCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+sTA1zgAAAJ9JREFUeNrs2TEOgCAMhWFqvBay63l1Rw6GaOKIi0UF/y5slI+G4QWJMZoWSoAAAfJziIioNBgGN+/ruvpJY7/cefvSN5X6jk9MpDONFBAgQIAAAQIECBAgQKqr/irZaYYia93tTJ1C65KWqYGJSHwts5+TCMGrbJg7L48dCBAgQIAAAQIECBAgn4u6apnuiKdS/OuYf3YgQIDUVZsAAwDSyUOmOhqCFAAAAABJRU5ErkJggg==);
     background-repeat: no-repeat;
-    -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
   .hide_torrents a {
     background-position: center top;
     background-size: cover;
-    -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
   }
   .show_torrents a {
@@ -2172,8 +2160,6 @@ All icons Copyright (c) Callum Jefferies 2011
     text-align: center;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
   }
   #discog_table .box.center a {
@@ -2305,8 +2291,6 @@ All icons Copyright (c) Callum Jefferies 2011
     padding: 10px;
     background: #fafafa;
     border: 1px solid #ddd;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
   }
   #torrents .filter_torrents .box.pad,
@@ -2317,8 +2301,6 @@ All icons Copyright (c) Callum Jefferies 2011
     padding: 15px !important;
     background: #e4e4e4;
     border: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
   }
   #collage div.thin form table {
@@ -2526,8 +2508,6 @@ All icons Copyright (c) Callum Jefferies 2011
     margin-bottom: 10px;
     padding: 5px;
     background: #f4f4f4;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
     border-radius: 8px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -2537,8 +2517,6 @@ All icons Copyright (c) Callum Jefferies 2011
     height: 8px;
     background: #666;
     border: 1px solid #5a5a5a;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
     border-radius: 5px;
     -webkit-box-shadow: inset 0 -2px 3px #555;
     -moz-box-shadow: inset 0 -2px 3px #555;
@@ -2581,7 +2559,6 @@ All icons Copyright (c) Callum Jefferies 2011
     margin: -11px;
     margin-bottom: 10px;
     padding: 8px !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ddd), to(#ccc));
     background: -moz-linear-gradient(center bottom, #ccc, #ddd);
     border: 1px solid #aeaeae !important;
     border-bottom-color: #bbb !important;
@@ -2864,7 +2841,6 @@ TODO: Make these rules apply globally and add exceptions where needed
     border-radius: 1px;
     color: white;
     padding: 0px 0px 0 4px !important;
-    -webkit-transform: translate3d(0px, 10px, 0);
     transform: translate3d(0px, 10px, 0);
   }
   .tooltipster-base .tooltipster-content {
@@ -2991,16 +2967,9 @@ TODO: Make these rules apply globally and add exceptions where needed
   margin-top: 10px;
   padding: 10px 15px;
 }
-#searchbars input {
-  width: 116px;
-  color: #444;
-  padding: 5px;
-  font-size: 12px;
-}
 #searchbars ul {
   display: flex;
-  justify-content: end;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 #searchbars ul li {
   display: block;

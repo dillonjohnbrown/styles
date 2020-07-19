@@ -70,10 +70,6 @@ Date:    23/01/2011
     width: 960px;
     margin: 0 auto;
   }
-  #header {
-    width: 960px;
-    margin: 0 auto;
-  }
   #footer {
     width: 960px;
     margin: 0 auto;
@@ -217,11 +213,6 @@ Date:    23/01/2011
     letter-spacing: 5px;
     position: relative;
     top: -3px;
-  }
-  #header {
-    position: relative;
-    height: 112px;
-    margin-bottom: 40px;
   }
   #userinfo_stats {
     color: #efefef;
@@ -1576,10 +1567,6 @@ All icons Copyright (c) Callum Jefferies 2011
     width: 960px;
     margin: 0 auto;
   }
-  #header {
-    width: 960px;
-    margin: 0 auto;
-  }
   #footer {
     width: 960px;
     margin: 0 auto;
@@ -1707,11 +1694,6 @@ All icons Copyright (c) Callum Jefferies 2011
     letter-spacing: 5px;
     position: relative;
     top: -3px;
-  }
-  #header {
-    position: relative;
-    height: 112px;
-    margin-bottom: 40px;
   }
   #userinfo_stats {
     color: #000;
@@ -2968,7 +2950,7 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #menu {
   border-radius: 50px;
-  position: absolute;
+  margin-top: 10px;
 }
 #menu a {
   font-size: 11px;
@@ -3000,8 +2982,7 @@ TODO: Make these rules apply globally and add exceptions where needed
   display: block;
 }
 #searchbars {
-  float: left;
-  width: 930px;
+  margin-top: 10px;
   padding: 10px 15px;
 }
 #searchbars input {
@@ -3034,7 +3015,7 @@ input[type="password"],
 #userinfo {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 1fr 3fr 1fr;
   grid-column-gap: 0;
   grid-row-gap: 0;
 }
@@ -3062,5 +3043,8 @@ input[type="password"],
 body {
   padding: 30px 20px 60px 20px;
   font: 9pt/14pt -apple-system;
+}
+#header {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=red-combined.css.map */

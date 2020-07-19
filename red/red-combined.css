@@ -237,19 +237,10 @@ Date:    23/01/2011
     margin-bottom: 40px;
   }
   #userinfo_stats {
-    position: relative;
-    float: right;
-    width: 217px;
-    height: 62px;
-    padding: 10px 14px;
-    border-radius: 2px;
     background: #3d3d3d;
     color: #efefef;
   }
   #userinfo_stats li {
-    display: block !important;
-    position: absolute;
-    width: 105px;
     font-size: 10px;
   }
   #userinfo_stats span {
@@ -268,10 +259,6 @@ Date:    23/01/2011
   }
   #stats_ratio,
   #stats_required {
-    left: 128px;
-  }
-  #fl_tokens {
-    top: 5.4em;
     left: 128px;
   }
   #discog_table.torrent_table .colhead_dark td:first-child {
@@ -312,9 +299,6 @@ Date:    23/01/2011
     color: #fff;
     font-size: 14px;
     font-weight: 700;
-  }
-  #userinfo_username .brackets {
-    margin: -2px;
   }
   #userinfo_username .brackets a {
     border-top-right-radius: 0;
@@ -1757,19 +1741,10 @@ All icons Copyright (c) Callum Jefferies 2011
     margin-bottom: 40px;
   }
   #userinfo_stats {
-    position: relative;
-    float: right;
-    width: 217px;
-    height: 62px;
-    padding: 10px 14px;
-    border-radius: 2px;
     background: #ececec;
     color: #000;
   }
   #userinfo_stats li {
-    display: block !important;
-    position: absolute;
-    width: 105px;
     font-size: 10px;
   }
   #userinfo_stats span {
@@ -1785,10 +1760,6 @@ All icons Copyright (c) Callum Jefferies 2011
   }
   #stats_ratio,
   #stats_required {
-    left: 128px;
-  }
-  #fl_tokens {
-    top: 5.4em;
     left: 128px;
   }
   #discog_table.torrent_table .colhead_dark td:first-child {
@@ -1829,9 +1800,6 @@ All icons Copyright (c) Callum Jefferies 2011
     color: #444;
     font-size: 14px;
     font-weight: 700;
-  }
-  #userinfo_username .brackets {
-    margin: -2px;
   }
   #userinfo_username .brackets a {
     border-top-right-radius: 0;
@@ -3046,27 +3014,22 @@ TODO: Make these rules apply globally and add exceptions where needed
   border-radius: 50px;
   transition: all 1s ease;
 }
+#menu ul li.active {
+  cursor: default;
+}
 #menu ul li a {
   text-decoration: none;
-  cursor: default;
 }
 #userinfo_minor {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  left: 0;
+  flex-direction: column;
+  width: 245px;
+  right: 0;
   z-index: 0;
   border-radius: 50px;
 }
 #userinfo_minor li {
   display: block;
-}
-#userinfo_major {
-  width: 245px;
-  right: 0;
-  top: 150px;
-  z-index: 1;
-  text-align: right;
 }
 #searchbars {
   float: left;
@@ -3098,17 +3061,11 @@ input[type="password"],
   transition: all 1s ease;
 }
 #userinfo_username {
-  position: absolute;
-  top: -100px;
-  right: 0;
   padding: 15px 0 15px 15px;
   display: flex;
   align-items: baseline;
 }
 #userinfo_username li {
   display: block;
-}
-#nav_userinfo {
-  margin-right: 10px;
 }
 /*# sourceMappingURL=red-combined.css.map */

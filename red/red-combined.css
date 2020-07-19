@@ -3048,6 +3048,7 @@ TODO: Make these rules apply globally and add exceptions where needed
   width: 100%;
   left: 0;
   z-index: 0;
+  border-radius: 50px;
 }
 #userinfo_minor li {
   display: block;
@@ -3087,5 +3088,19 @@ input[type="password"],
   padding: 5px;
   border-radius: 2px;
   transition: all 1s ease;
+}
+#userinfo_username {
+  position: absolute;
+  top: -100px;
+  right: 0;
+  padding: 15px 0 15px 15px;
+  display: flex;
+  align-items: baseline;
+}
+#userinfo_username li {
+  display: block;
+}
+#nav_userinfo {
+  margin-right: 10px;
 }
 /*# sourceMappingURL=red-combined.css.map */

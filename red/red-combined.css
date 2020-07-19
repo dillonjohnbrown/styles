@@ -197,14 +197,6 @@ Date:    23/01/2011
   #userinfo_minor a:hover {
     color: #fff;
   }
-  h1.hidden {
-    padding: 15px 10px;
-    display: block;
-    text-transform: lowercase;
-    font-size: 13px;
-    letter-spacing: 5px;
-    position: relative;
-  }
   #userinfo_stats {
     color: #efefef;
   }
@@ -350,9 +342,6 @@ Date:    23/01/2011
     content: " ";
     clear: both;
     height: 0;
-  }
-  #searchbars {
-    background: #494949;
   }
   #menu {
     background-color: #494949;
@@ -1621,7 +1610,7 @@ All icons Copyright (c) Callum Jefferies 2011
     top: -100px;
   }
   #userinfo {
-    background: #E3E4E6;
+    background: #fff;
     border: 1px solid #aeaeae;
   }
   #userinfo_major a,
@@ -1631,14 +1620,6 @@ All icons Copyright (c) Callum Jefferies 2011
   #userinfo_major a:hover,
   #userinfo_minor a:hover {
     color: #444;
-  }
-  h1.hidden {
-    padding: 15px 10px;
-    display: block;
-    text-transform: lowercase;
-    font-size: 13px;
-    letter-spacing: 5px;
-    position: relative;
   }
   #userinfo_stats {
     color: #000;
@@ -1720,9 +1701,9 @@ All icons Copyright (c) Callum Jefferies 2011
   input[type="search"],
   input[type="password"],
   .select {
-    background: #eaeaea;
+    background: #f6f6f6;
     border: 1px solid #adadad;
-    color: #444;
+    color: #7d7d7d;
   }
   textarea:focus,
   input[type="text"]:focus,
@@ -1764,11 +1745,6 @@ All icons Copyright (c) Callum Jefferies 2011
     content: " ";
     clear: both;
     height: 0;
-  }
-  #searchbars {
-    background: #e3e4e6;
-    border: 1px solid #aeaeae;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   }
   #menu {
     background-color: #E3E4E6;
@@ -2889,6 +2865,8 @@ TODO: Make these rules apply globally and add exceptions where needed
   grid-row-gap: 0;
   text-align: center;
   width: 100%;
+}
+#userinfo_major a {
   display: block;
 }
 #nav_upload {
@@ -2961,10 +2939,6 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #fl_tokens {
   grid-area: 3 / 1 / 4 / 3;
-}
-#searchbars {
-  padding: 10px;
-  max-height: 56px;
 }
 #searchbars ul {
   display: grid;
@@ -3063,5 +3037,15 @@ body {
 }
 #nav_userclass span {
   display: block;
+}
+#requests_box a {
+  float: right;
+}
+h1.hidden {
+  padding: 15px 0;
+  display: block;
+  text-transform: lowercase;
+  font-size: 13px;
+  letter-spacing: 5px;
 }
 /*# sourceMappingURL=red-combined.css.map */

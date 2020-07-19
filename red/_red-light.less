@@ -121,13 +121,6 @@ h3 {
     width: 15%;
 }
 
-#userinfo_username {
-    position: absolute;
-    top: -122px;
-    right: 0;
-    padding: 15px 8px 15px 15px;
-}
-
 #alerts {
     position: absolute;
     top: -100px;
@@ -391,8 +384,14 @@ textarea {
     a {
     	color: #4e4e4e;
     }
-    li.active {
-    	background-color: black;
+    li {
+    	background-color: grey;
+    	&.active {
+    		background-color: black;
+    		a {
+    			color: white;
+    		}
+    	}
     }
 }
 

@@ -95,9 +95,19 @@ body {
     padding: 30px 20px 60px 20px;
     font: 9pt/14pt -apple-system;
 }
+/* Header grid */
 #header {
     margin-bottom: 30px;
+    display: grid; 
+	grid-template-columns: 695fr 245fr; 
+	grid-template-rows: 1fr repeat(2, 2fr); 
+	grid-column-gap: 0;
+	grid-row-gap: 0;
 }
+#logo { grid-area: 1 / 1 / 2 / 2; } 
+#userinfo { grid-area: 1 / 2 / 4 / 3; } 
+#menu { grid-area: 2 / 1 / 3 / 2; } 
+#searchbars { grid-area: 3 / 1 / 4 / 2; } 
 #userinfo_username {
 	a {
 		

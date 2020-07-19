@@ -20,18 +20,22 @@
     ul {
     	display: flex;
     	justify-content: space-around;
-    	width: 695px;
    		li {
    			display: block;
-    		padding: 3px 10px;
-    		margin: 4px 3px;
     		border-radius: 50px;
     		transition: all 1s ease;
+    		min-width: 70px;
+    		text-align: center;
+    		margin: 4px 3px;
+    		&:hover {
+    			background-color: #3d3d3d;
+    		}
     		&.active {
     			cursor: default;
     		}
     		a {
     			text-decoration: none;
+    			padding: 3px 24px;
     		}
 		}
    	}

@@ -2959,20 +2959,24 @@ TODO: Make these rules apply globally and add exceptions where needed
 #menu ul {
   display: flex;
   justify-content: space-around;
-  width: 695px;
 }
 #menu ul li {
   display: block;
-  padding: 3px 10px;
-  margin: 4px 3px;
   border-radius: 50px;
   transition: all 1s ease;
+  min-width: 70px;
+  text-align: center;
+  margin: 4px 3px;
+}
+#menu ul li:hover {
+  background-color: #3d3d3d;
 }
 #menu ul li.active {
   cursor: default;
 }
 #menu ul li a {
   text-decoration: none;
+  padding: 3px 24px;
 }
 #userinfo_minor {
   display: flex;

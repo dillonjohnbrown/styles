@@ -197,10 +197,6 @@ Date:    23/01/2011
   #userinfo_minor a:hover {
     color: #fff;
   }
-  #userinfo_major a {
-    font-size: 12px;
-    color: #ddd;
-  }
   h1.hidden {
     padding: 15px 10px;
     display: block;
@@ -1636,10 +1632,6 @@ All icons Copyright (c) Callum Jefferies 2011
   #userinfo_minor a:hover {
     color: #444;
   }
-  #userinfo_major a {
-    font-size: 12px;
-    color: #666;
-  }
   h1.hidden {
     padding: 15px 10px;
     display: block;
@@ -2896,6 +2888,8 @@ TODO: Make these rules apply globally and add exceptions where needed
   grid-column-gap: 5px;
   grid-row-gap: 0;
   text-align: center;
+  width: 100%;
+  display: block;
 }
 #nav_upload {
   grid-area: 1 / 1 / 2 / 2;

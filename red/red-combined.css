@@ -3029,8 +3029,27 @@ input[type="password"],
   transition: all 1s ease;
   width: -webkit-fill-available;
 }
+#userinfo_username {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
 #userinfo_username li {
   display: inline-block;
+}
+#nav_userinfo {
+  grid-area: 1 / 1 / 2 / 2;
+}
+#nav_userclass {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#nav_useredit {
+  grid-area: 2 / 1 / 3 / 2;
+}
+#nav_logout {
+  grid-area: 2 / 2 / 3 / 3;
 }
 #userinfo {
   padding: 8px;
@@ -3063,5 +3082,8 @@ body {
 #userinfo .brackets:after {
   content: "";
   display: none;
+}
+#nav_userclass span {
+  display: block;
 }
 /*# sourceMappingURL=red-combined.css.map */

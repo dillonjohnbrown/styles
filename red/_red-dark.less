@@ -84,15 +84,6 @@ h3 {
     margin: 0 auto;
 }
 
-#header ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-#header ul li:last-child {
-    margin-right: 0;
-}
-
 #footer {
     width: 960px;
     margin: 0 auto;
@@ -161,7 +152,8 @@ h3 {
     top: -100px;
 }
 
-#searchbars,#userinfo_stats {
+#searchbars,
+#userinfo_stats {
     margin-top: 55px;
 }
 
@@ -200,12 +192,11 @@ h3 {
 
 }
 
-#searchbars ul li:nth-child(3) {
-    display: none;
-}
-
 #searchbars ul li {
     margin-right: 4px;
+    &:nth-child(3) {
+   		display: none;
+	}
 }
 
 h1.hidden {
@@ -456,48 +447,29 @@ textarea {
     width: 667px;
     padding: 27px 15px;
     background: #494949;
-    
+    input {
+    	width: 116px;
+    	padding: 5px;
+    	font-size: 12px;
+    }
 }
 
-#searchbars input {
-    width: 116px;
-    padding: 5px;
-    font-size: 12px;
-}
-
-#searchbars ul,#searchbars form {
+#searchbars ul,
+#searchbars form {
     display: inline;
     white-space: nowrap;
 }
 
 #menu {
-    position: absolute;
-    top: -35px;
-    right: -5px;
-    text-align: right;
-    padding-right: 10px;
+	background-color: #494949;
+    a {
+    	color: #dedede;
+    }
+    li.active {
+    	background-color: white;
+    }
 }
 
-#menu a {
-    color: #dedede;
-    font-size: 11px;
-    font-weight: 700;
-}
-
-#menu ul {
-    width: 665px;
-}
-
-#menu ul li {
-    padding-right: 10px;
-    
-}
-
-#menu ul li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: none;
-}
 
 #content {
     width: 960px;

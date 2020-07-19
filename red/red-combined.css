@@ -77,13 +77,6 @@ Date:    23/01/2011
     width: 960px;
     margin: 0 auto;
   }
-  #header ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  #header ul li:last-child {
-    margin-right: 0;
-  }
   #footer {
     width: 960px;
     margin: 0 auto;
@@ -239,11 +232,11 @@ Date:    23/01/2011
     font-size: 12px;
     color: #ddd;
   }
-  #searchbars ul li:nth-child(3) {
-    display: none;
-  }
   #searchbars ul li {
     margin-right: 4px;
+  }
+  #searchbars ul li:nth-child(3) {
+    display: none;
   }
   h1.hidden {
     width: 940px;
@@ -475,27 +468,13 @@ Date:    23/01/2011
     white-space: nowrap;
   }
   #menu {
-    position: absolute;
-    top: -35px;
-    right: -5px;
-    text-align: right;
-    padding-right: 10px;
+    background-color: #494949;
   }
   #menu a {
     color: #dedede;
-    font-size: 11px;
-    font-weight: 700;
   }
-  #menu ul {
-    width: 665px;
-  }
-  #menu ul li {
-    padding-right: 10px;
-  }
-  #menu ul li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: none;
+  #menu li.active {
+    background-color: white;
   }
   #content {
     width: 960px;
@@ -1658,13 +1637,6 @@ All icons Copyright (c) Callum Jefferies 2011
     width: 960px;
     margin: 0 auto;
   }
-  #header ul li {
-    display: inline;
-    margin-right: 10px;
-  }
-  #header ul li:last-child {
-    margin-right: 0;
-  }
   #footer {
     width: 960px;
     margin: 0 auto;
@@ -1804,11 +1776,11 @@ All icons Copyright (c) Callum Jefferies 2011
     font-size: 12px;
     color: #666;
   }
-  #searchbars ul li:nth-child(3) {
-    display: none;
-  }
   #searchbars ul li {
     margin-right: 4px;
+  }
+  #searchbars ul li:nth-child(3) {
+    display: none;
   }
   h1.hidden {
     width: 940px;
@@ -2006,7 +1978,7 @@ All icons Copyright (c) Callum Jefferies 2011
   #searchbars {
     float: left;
     width: 667px;
-    padding: 15px;
+    padding: 27px 15px;
     background: #ececec;
   }
   #searchbars input {
@@ -2021,27 +1993,13 @@ All icons Copyright (c) Callum Jefferies 2011
     white-space: nowrap;
   }
   #menu {
-    position: absolute;
-    top: -35px;
-    right: -5px;
-    text-align: right;
-    padding-right: 10px;
+    background-color: grey;
   }
   #menu a {
     color: #4e4e4e;
-    font-size: 11px;
-    font-weight: 700;
   }
-  #menu ul {
-    width: 665px;
-  }
-  #menu ul li {
-    padding-right: 10px;
-  }
-  #menu ul li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-    border-right: none;
+  #menu li.active {
+    background-color: black;
   }
   #content {
     width: 960px;
@@ -3110,5 +3068,24 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 .vote_matches_table a {
   float: right;
+}
+#menu {
+  border-radius: 50px;
+  position: absolute;
+  top: -35px;
+  right: -5px;
+  text-align: center;
+}
+#menu a {
+  font-size: 11px;
+  font-weight: 700;
+}
+#menu ul li {
+  display: inline;
+  padding: 3px 10px;
+  margin: 2px 3px;
+}
+#menu ul li.active {
+  border-radius: 50px;
 }
 /*# sourceMappingURL=red-combined.css.map */

@@ -1694,11 +1694,6 @@ All icons Copyright (c) Callum Jefferies 2011
   input[type="submit"]:active {
     background: -moz-linear-gradient(center bottom, #5f5f5f, #575757);
   }
-  #userinfo_username a {
-    color: #444;
-    font-size: 14px;
-    font-weight: 700;
-  }
   input[type="submit"]:active {
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 5px rgba(0, 0, 0, 0.02), inset -1px 1px 0 rgba(255, 255, 255, 0.12);
     -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15), inset 0 0 5px rgba(0, 0, 0, 0.02), inset -1px 1px 0 rgba(255, 255, 255, 0.12);
@@ -2629,10 +2624,6 @@ All icons Copyright (c) Callum Jefferies 2011
   /* Fix for forums.php, search specific forum */
   .search_form[action="forums.php"] td > strong {
     margin-right: 10px;
-  }
-  #userinfo .brackets:before,
-  #userinfo .brackets:after {
-    content: "";
   }
   .linkbox .brackets:before,
   .linkbox .brackets:after,

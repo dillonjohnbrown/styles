@@ -46,7 +46,9 @@
 	grid-row-gap: 0;
 	text-align: center;
 	width: 100%;
-	display: block;
+	a {
+		display: block;
+	}
 }
 #nav_upload { grid-area: 1 / 1 / 2 / 2; } 
 #nav_invite { grid-area: 1 / 2 / 2 / 3; } 
@@ -170,4 +172,15 @@ body {
 	span {
 		display: block;
 	}
+#requests_box {
+	a {
+		float: right;
+	}
+}
+h1.hidden { 
+    padding: 15px 0;
+    display: block;
+    text-transform: lowercase;
+    font-size: 13px;
+    letter-spacing: 5px;
 }

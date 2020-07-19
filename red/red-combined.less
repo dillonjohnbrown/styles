@@ -13,6 +13,7 @@
 #menu {
 	border-radius: 50px;
 	margin-top: 10px;
+	max-height: 25px;
     a {
     	font-size: 11px;
     	font-weight: 700;
@@ -20,6 +21,7 @@
     ul {
     	display: flex;
     	justify-content: space-around;
+    	padding: 3px 0;
    		li {
    			display: block;
     		border-radius: 50px;
@@ -30,7 +32,7 @@
     		}
     		a {
     			text-decoration: none;
-    			padding: 3px 24px;
+    			padding: 3px 10px;
     		}
 		}
    	}
@@ -41,11 +43,12 @@
 	}
 }
 #searchbars {
-	margin-top: 10px;
     padding: 10px 15px;
+    max-height: 60px;
     ul {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 		li {
 			display: block;
 		}
@@ -79,7 +82,7 @@ body {
 /* Header grid */
 #header {
 	display: grid; 
-	grid-template-columns: 695fr 245fr; 
+	grid-template-columns: 697px 240px; 
 	grid-template-rows: 1fr 3fr; 
 	grid-column-gap: 20px;
 	grid-row-gap: 0; 

@@ -206,19 +206,12 @@ Date:    23/01/2011
     position: absolute;
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
   }
   #userinfo_minor {
-    width: 100%;
-    left: 0;
-    z-index: 0;
     background: #494949;
   }
   #userinfo_major {
-    width: 265px;
-    right: 0;
-    z-index: 1;
-    text-align: right;
+    background-color: #494949;
   }
   #userinfo_major a,
   #userinfo_minor a {
@@ -1750,19 +1743,12 @@ All icons Copyright (c) Callum Jefferies 2011
     position: absolute;
     padding: 10px 15px;
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
   }
   #userinfo_minor {
-    width: 100%;
-    left: 0;
-    z-index: 0;
     background: #ececec;
   }
   #userinfo_major {
-    width: 265px;
-    right: 0;
-    z-index: 1;
-    text-align: right;
+    background: #ececec;
   }
   #userinfo_major a,
   #userinfo_minor a {
@@ -3087,5 +3073,15 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #menu ul li.active {
   border-radius: 50px;
+}
+#userinfo_minor {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  left: 0;
+  z-index: 0;
+}
+#userinfo_minor li {
+  display: block;
 }
 /*# sourceMappingURL=red-combined.css.map */

@@ -3051,7 +3051,23 @@ input[type="password"],
   display: block;
 }
 #userinfo {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+#userinfo_username {
+  grid-area: 1 / 1 / 2 / 5;
+}
+#userinfo_major {
+  grid-area: 2 / 1 / 3 / 3;
+}
+#userinfo_stats {
+  grid-area: 2 / 3 / 3 / 5;
+}
+#userinfo_minor {
+  grid-area: 3 / 1 / 4 / 5;
 }
 body {
   padding: 30px 20px 60px 20px;

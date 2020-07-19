@@ -342,10 +342,6 @@ Date:    23/01/2011
   input {
     outline: none;
   }
-  form textarea,
-  form input {
-    max-width: 80%;
-  }
   form#quickpostform textarea {
     height: 160px;
     margin: 0;
@@ -371,15 +367,9 @@ Date:    23/01/2011
   input[type="search"],
   input[type="password"],
   .select {
-    width: 195px;
-    padding: 5px;
     background: #5c5c5c;
-    -moz-border-radius: 2px;
-    border-radius: 2px;
     border: 1px solid #444;
-    font: 12px Lato, 'Lucida Grande', Helvetica, Arial, sans-serif;
     color: #fafafa;
-    transition: all 0.3s ease;
   }
   textarea:focus,
   input[type="text"]:focus,
@@ -441,11 +431,6 @@ Date:    23/01/2011
   }
   #searchbars {
     background: #494949;
-  }
-  #searchbars ul,
-  #searchbars form {
-    display: inline;
-    white-space: nowrap;
   }
   #menu {
     background-color: #494949;
@@ -1871,10 +1856,6 @@ All icons Copyright (c) Callum Jefferies 2011
   input {
     outline: none;
   }
-  form textarea,
-  form input {
-    max-width: 80%;
-  }
   form#quickpostform textarea {
     height: 160px;
     margin: 0;
@@ -1900,14 +1881,9 @@ All icons Copyright (c) Callum Jefferies 2011
   input[type="search"],
   input[type="password"],
   .select {
-    width: 195px;
-    padding: 5px;
     background: #eaeaea;
-    border-radius: 2px;
     border: 1px solid #adadad;
-    font: 12px Lato, 'Lucida Grande', Helvetica, Arial, sans-serif;
     color: #444;
-    transition: all 0.3s ease;
   }
   textarea:focus,
   input[type="text"]:focus,
@@ -1952,11 +1928,6 @@ All icons Copyright (c) Callum Jefferies 2011
   }
   #searchbars {
     background: #ececec;
-  }
-  #searchbars ul,
-  #searchbars form {
-    display: inline;
-    white-space: nowrap;
   }
   #menu {
     background-color: grey;
@@ -3090,8 +3061,8 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #searchbars {
   float: left;
-  width: 667px;
-  padding: 27px 15px;
+  width: 930px;
+  padding: 10px 15px;
 }
 #searchbars input {
   width: 116px;
@@ -3106,5 +3077,15 @@ TODO: Make these rules apply globally and add exceptions where needed
 }
 #searchbars ul li {
   display: block;
+}
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"],
+.select {
+  padding: 5px;
+  border-radius: 2px;
+  transition: all 1s ease;
 }
 /*# sourceMappingURL=red-combined.css.map */

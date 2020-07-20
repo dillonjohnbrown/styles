@@ -2873,7 +2873,6 @@ input[type="password"],
 }
 #userinfo {
   padding: 8px;
-  margin-top: 20px;
   display: grid;
   grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: 1fr 5fr;
@@ -2984,9 +2983,17 @@ h1.hidden {
   text-align: left;
   margin-left: 5px;
 }
+#nav_userclass span {
+  display: block;
+}
 #nav_useredit {
   flex-grow: 2;
   margin-right: 5px;
   text-align: right;
+}
+#userinfo_major a,
+#userinfo_minor a {
+  width: 100%;
+  display: block;
 }
 /*# sourceMappingURL=red-combined.css.map */

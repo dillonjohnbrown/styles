@@ -64,7 +64,6 @@ input[type="password"],
 
 #userinfo {
 	padding: 8px;
-	margin-top: 20px;
 	display: grid; 
 	grid-template-columns: 1fr 5fr 1fr; 
 	grid-template-rows: 1fr 5fr; 
@@ -146,9 +145,19 @@ h1.hidden {
 	flex-grow: 2;
 	text-align: left;
 	margin-left: 5px;
+	span {
+		display: block;
+	}
 }
 #nav_useredit {
 	flex-grow: 2;
 	margin-right: 5px;
 	text-align: right;
+}
+#userinfo_major,
+#userinfo_minor {
+	a {
+		width: 100%;
+		display: block;
+	}
 }

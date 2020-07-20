@@ -2903,10 +2903,10 @@ input[type="password"],
   grid-area: 2 / 1 / 3 / 2;
 }
 #userinfo_stats {
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2 / 3 / 3 / 4;
 }
 #userinfo_minor {
-  grid-area: 2 / 3 / 3 / 4;
+  grid-area: 2 / 2 / 3 / 3;
 }
 body {
   padding: 30px 20px 60px 20px;

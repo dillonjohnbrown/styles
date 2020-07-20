@@ -2992,7 +2992,6 @@ body {
 #header {
   display: grid;
   grid-template-columns: 695px 242px;
-  grid-template-rows: 1fr 3fr;
   grid-column-gap: 20px;
   grid-row-gap: 0;
   margin-bottom: 10px;
@@ -3023,5 +3022,8 @@ h1.hidden {
   text-transform: lowercase;
   font-size: 13px;
   letter-spacing: 5px;
+}
+#logo {
+  display: none;
 }
 /*# sourceMappingURL=red-combined.css.map */

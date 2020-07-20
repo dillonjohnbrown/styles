@@ -2908,6 +2908,43 @@ input[type="password"],
 #userinfo_minor {
   grid-area: 2 / 2 / 3 / 3;
 }
+#userinfo_minor {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+#nav_inbox {
+  grid-area: 1 / 1 / 2 / 3;
+}
+#nav_staffinbox {
+  grid-area: 1 / 3 / 2 / 5;
+}
+#nav_uploaded {
+  grid-area: 2 / 1 / 3 / 2;
+}
+#nav_bookmarks {
+  grid-area: 2 / 2 / 3 / 3;
+}
+#nav_notifications {
+  grid-area: 2 / 3 / 3 / 4;
+}
+#nav_subscriptions {
+  grid-area: 2 / 4 / 3 / 5;
+}
+#nav_posts {
+  grid-area: 3 / 1 / 4 / 2;
+}
+#nav_comments {
+  grid-area: 3 / 2 / 4 / 3;
+}
+#nav_friends {
+  grid-area: 3 / 3 / 4 / 4;
+}
+#nav_better {
+  grid-area: 3 / 4 / 4 / 5;
+}
 body {
   padding: 30px 20px 60px 20px;
   font: 9pt/14pt -apple-system;

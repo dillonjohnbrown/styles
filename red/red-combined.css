@@ -2858,7 +2858,7 @@ TODO: Make these rules apply globally and add exceptions where needed
 #searchbars ul li {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: -1px;
 }
 textarea,
 input[type="text"],
@@ -2866,8 +2866,7 @@ input[type="email"],
 input[type="search"],
 input[type="password"],
 .select {
-  padding: 5px;
-  border-radius: 2px;
+  padding: 6px 8px;
   transition: all 1s ease;
   width: -webkit-fill-available;
 }
@@ -2964,5 +2963,8 @@ h1.hidden {
 #userinfo_minor a {
   width: 100%;
   display: block;
+}
+#recommended .brackets {
+  float: right;
 }
 /*# sourceMappingURL=red-combined.css.map */

@@ -24,11 +24,6 @@ Date:    23/01/2011
     background: #303030 !important;
     color: #eee;
   }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-bottom: 10px;
-  }
   a {
     text-decoration: none;
     color: #cbe4fd;
@@ -46,29 +41,7 @@ Date:    23/01/2011
   h1,
   h2,
   h3 {
-    font-weight: bold;
     color: #efefef !important;
-  }
-  h2 {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-  h3 {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  #logo a {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    width: 200px;
-    height: 23px;
-  }
-  #wrapper {
-    width: 960px;
-    margin: 0 auto;
   }
   #footer {
     width: 960px;
@@ -137,46 +110,6 @@ Date:    23/01/2011
   .r99 {
     color: #ddd;
   }
-  .size1 {
-    font-size: 0.75em;
-    line-height: normal;
-  }
-  .size2 {
-    font-size: 1em;
-    line-height: normal;
-  }
-  .size3 {
-    font-size: 1.25em;
-    line-height: normal;
-  }
-  .size4 {
-    font-size: 1.5em;
-    line-height: normal;
-  }
-  .size5 {
-    font-size: 1.75em;
-    line-height: normal;
-  }
-  .size6 {
-    font-size: 2em;
-    line-height: normal;
-  }
-  .size7 {
-    font-size: 2.25em;
-    line-height: normal;
-  }
-  .size8 {
-    font-size: 2.5em;
-    line-height: normal;
-  }
-  .size9 {
-    font-size: 2.75em;
-    line-height: normal;
-  }
-  .size10 {
-    font-size: 3em;
-    line-height: normal;
-  }
   #discog_table.torrent_table .colhead_dark td:nth-child(4) {
     width: 15%;
   }
@@ -212,14 +145,6 @@ Date:    23/01/2011
   }
   #userinfo_stats a {
     color: #f4f4f4;
-  }
-  #stats_leeching,
-  #stats_required {
-    top: 32px;
-  }
-  #stats_ratio,
-  #stats_required {
-    left: 128px;
   }
   #discog_table.torrent_table .colhead_dark td:first-child {
     width: 50px !important;
@@ -271,14 +196,6 @@ Date:    23/01/2011
   input[type="text"],
   input[type="email"],
   input[type="search"],
-  input[type="password"] {
-    -webkit-appearance: none;
-    box-shadow: none;
-  }
-  textarea,
-  input[type="text"],
-  input[type="email"],
-  input[type="search"],
   input[type="password"],
   .select {
     background: #5c5c5c;
@@ -296,18 +213,10 @@ Date:    23/01/2011
   *::-webkit-input-placeholder {
     color: #ccc !important;
   }
-  *:-moz-placeholder {
-    /* Firefox 18- */
-    color: #ccc !important;
-    opacity: 1;
-  }
   *::-moz-placeholder {
     /* Firefox 19+ */
     color: #ccc !important;
     opacity: 1;
-  }
-  *:-ms-input-placeholder {
-    color: #ccc !important;
   }
   textarea {
     resize: none;
@@ -315,19 +224,6 @@ Date:    23/01/2011
     width: 550px;
     height: 120px;
     font-size: 12px;
-  }
-  .sidebar input[type="text"],
-  .sidebar input[type="email"],
-  .sidebar input[type="search"],
-  .sidebar textarea {
-    width: 202px;
-  }
-  .sidebar select,
-  .sidebar input {
-    margin-bottom: 10px;
-  }
-  .sidebar ol {
-    margin-left: 20px;
   }
   #content,
   .thin {
@@ -360,61 +256,6 @@ Date:    23/01/2011
   }
   #menu li.active a {
     color: black;
-  }
-  #content {
-    width: 960px;
-    margin: 0 auto !important;
-    /*overflow: hidden;*/
-  }
-  #content .main_column,
-  #content .sidebar {
-    position: relative;
-  }
-  #content .main_column {
-    float: left;
-    width: 695px;
-  }
-  #content .sidebar {
-    float: right;
-    width: 245px;
-  }
-  ul.collage_images {
-    width: 675px !important;
-  }
-  ul.collage_images li {
-    height: 135px !important;
-    width: 135px !important;
-  }
-  ul.collage_images li a {
-    height: 135px !important;
-    width: 135px !important;
-  }
-  ul.collage_images li a img {
-    height: 135px !important;
-    width: 135px !important;
-  }
-  ul.collage_images li a:hover {
-    position: relative;
-    overflow: visible !important;
-  }
-  ul.collage_images li a:hover img {
-    position: absolute;
-    margin: -80px;
-    z-index: 4;
-    width: 300px !important;
-    height: 300px !important;
-  }
-  #collages,
-  #personal_collages,
-  #collage_table,
-  .forum_index,
-  .torrent_table,
-  .forum_post.box,
-  .recent,
-  table.border,
-  .torrent_table.grouping,
-  #userhistory table {
-    width: 100% !important;
   }
   table[width="100%"],
   .box,
@@ -760,16 +601,8 @@ Date:    23/01/2011
     background-position: center;
   }
   .forum_post .avatar {
-    padding: 10px;
-    width: 100px !important;
     background: #444;
     border-right: 1px solid #4f4f4f;
-  }
-  .forum_post .avatar img {
-    width: 120px !important;
-  }
-  .forum_post .body {
-    padding: 15px;
   }
   body#forums table.forum_post td.body > div,
   body#userhistory table.forum_post td.body > div {
@@ -853,10 +686,6 @@ Date:    23/01/2011
   #collage div.thin form table:nth-child(2) tr:first-child td {
     padding-top: 0 !important;
   }
-  .filter_torrents table.cat_list td {
-    width: 8% !important;
-    text-align: center !important;
-  }
   .filter_torrents table:nth-child(2) td {
     padding: 17px 0 15px 0 !important;
     background: #3D3D3D;
@@ -877,9 +706,6 @@ Date:    23/01/2011
     position: relative;
     padding-top: 15px;
   }
-  .filter_torrents .submit input[value="Reset"] {
-    display: none;
-  }
   .filter_torrents .submit span {
     position: absolute;
     left: 20px;
@@ -887,19 +713,10 @@ Date:    23/01/2011
     color: #777;
     line-height: 24pt;
   }
-  .filter_torrents .submit span:before {
-    content: "";
-  }
-  .filter_torrents .submit span:after {
-    content: "";
-  }
   .filter_torrents .submit input[name="setdefault"],
   .filter_torrents .submit input[name="cleardefault"] {
     float: right;
     margin-left: 8px;
-  }
-  .filter_torrents .cat_list {
-    border: none !important;
   }
   ul#artistcomplete {
     position: absolute;
@@ -1314,12 +1131,7 @@ Date:    23/01/2011
     margin-left: 15px;
   }
   .filter_torrents .head {
-    border: none !important;
     border-bottom: 1px solid #4f4f4f !important;
-  }
-  .filter_torrents input[type="submit"] {
-    display: block;
-    margin: auto;
   }
   .tooltipster-base {
     background-color: #232323;
@@ -1328,25 +1140,6 @@ Date:    23/01/2011
     color: white;
     padding: 0px 0px 0 4px !important;
     transform: translate3d(0px, 10px, 0);
-  }
-  .tooltipster-base .tooltipster-content {
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-  }
-  .tooltipster-arrow {
-    display: none !important;
-  }
-  .vote_tag_up,
-  .vote_tag_down {
-    margin: 0 !important;
-    font-weight: 900;
-  }
-  .vote_tag_up:before,
-  .vote_tag_down:before,
-  .vote_tag_up:after,
-  .vote_tag_down:after {
-    content: "\00a0";
   }
   .noty_buttons a {
     color: #444;
@@ -1367,14 +1160,6 @@ Date:    23/01/2011
   strong.important_text_alt {
     color: #33ff99;
     font-weight: bold;
-  }
-  #artist_tr .brackets {
-    margin: 0 4px;
-    font-size: 18px;
-    font-weight: 700;
-    position: relative;
-    top: 2px;
-    left: 5px;
   }
   .autocomplete-suggestions {
     margin-top: 5px;
@@ -1406,30 +1191,8 @@ Date:    23/01/2011
     min-width: 100px;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyCAYAAACqNX6+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo3NkIzMEZGOUI1NEIxMUU2QjgzMUQ3QjVBQzg4MUZFQSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo3NkIzMEZGQUI1NEIxMUU2QjgzMUQ3QjVBQzg4MUZFQSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjc2QjMwRkY3QjU0QjExRTZCODMxRDdCNUFDODgxRkVBIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjc2QjMwRkY4QjU0QjExRTZCODMxRDdCNUFDODgxRkVBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Vo31AgAAAY5JREFUeNrs3LtxwzAQBFCIRTC1WAVT1cMiHLgI1uOUVVBKWYUEzzDwWLL4uc8ueBsd7iLgDdI7pZSqruu+mqY5p4hbxnG89n3/eZqmKdV1/TEMw3eg+GG0bXt5WNyq3MhFbuRBPI8fRj5X8yBQ/DF+gQSKP8YfkEDxxXgKEih+GC9BAsUH41+QQLHHeAsSKLYYi0ACxQ5jMUig2GCsAgkUfYzVIIGii7EJJFD0MDaDBIoOxi6QQJHH2A0SKLIYIiBHR5HEEAM5Koo0hijI0VA0MMRBjoKihaECUjqKJoYaSKko2hiqIKWhWGCog5SCYoVhAsKOYolhBsKKYo1hCsKG4oFhDsKC4oXhAoKO4onhBoKK4o3hCoKGgoDhDoKCgoIBAeKNgoQBA+KFgoYBBWKNgogBB2KFgooBCaKNgowBC6KFgo4BDSKNwoABDyKFwoJBAbIXhQmDBmQrChsGFchaFEYMOpClKKwYlCDvUJgxaEFeobBj5PysZ2LOvFoq1+wYRYDMKPOvYb/LXYABAAfuCSZrLdWSAAAAAElFTkSuQmCC) calc(100% - 8px)/9px no-repeat #666;
   }
-  select:focus,
-  select:active {
-    outline: none;
-  }
-  .group_info .tooltip.brackets:before {
-    content: "[";
-  }
-  .group_info .tooltip.brackets:after {
-    content: "]";
-  }
-  .torrent_links_block .tooltip.brackets:before {
-    content: "[";
-  }
-  .torrent_links_block .tooltip.brackets:after {
-    content: "]";
-  }
   .forum_unread {
     border-top: 2px solid #c5c7ca;
-  }
-  .seeders img,
-  .snatches img,
-  .leechers img {
-    height: 15px;
-    width: auto;
   }
   .edition_info .tooltip {
     background: white;
@@ -1465,11 +1228,6 @@ All icons Copyright (c) Callum Jefferies 2011
   body {
     background: #f2f2f2 !important;
   }
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-bottom: 10px;
-  }
   a {
     text-decoration: none;
     color: #3b7ab0;
@@ -1487,29 +1245,7 @@ All icons Copyright (c) Callum Jefferies 2011
   h1,
   h2,
   h3 {
-    font-weight: bold;
     color: #444 !important;
-  }
-  h2 {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 20px;
-  }
-  h3 {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-  }
-  #logo a {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    width: 200px;
-    height: 23px;
-  }
-  #wrapper {
-    width: 960px;
-    margin: 0 auto;
   }
   #footer {
     width: 960px;
@@ -1562,46 +1298,6 @@ All icons Copyright (c) Callum Jefferies 2011
   .r99 {
     color: #418B00;
   }
-  .size1 {
-    font-size: 0.75em;
-    line-height: normal;
-  }
-  .size2 {
-    font-size: 1em;
-    line-height: normal;
-  }
-  .size3 {
-    font-size: 1.25em;
-    line-height: normal;
-  }
-  .size4 {
-    font-size: 1.5em;
-    line-height: normal;
-  }
-  .size5 {
-    font-size: 1.75em;
-    line-height: normal;
-  }
-  .size6 {
-    font-size: 2em;
-    line-height: normal;
-  }
-  .size7 {
-    font-size: 2.25em;
-    line-height: normal;
-  }
-  .size8 {
-    font-size: 2.5em;
-    line-height: normal;
-  }
-  .size9 {
-    font-size: 2.75em;
-    line-height: normal;
-  }
-  .size10 {
-    font-size: 3em;
-    line-height: normal;
-  }
   #discog_table.torrent_table .colhead_dark td:nth-child(4) {
     width: 15%;
   }
@@ -1633,14 +1329,6 @@ All icons Copyright (c) Callum Jefferies 2011
   #userinfo_stats .stat {
     font-weight: 700;
     margin-left: 2px;
-  }
-  #stats_leeching,
-  #stats_required {
-    top: 32px;
-  }
-  #stats_ratio,
-  #stats_required {
-    left: 128px;
   }
   #discog_table.torrent_table .colhead_dark td:first-child {
     width: 50px !important;
@@ -1691,14 +1379,6 @@ All icons Copyright (c) Callum Jefferies 2011
   input[type="text"],
   input[type="email"],
   input[type="search"],
-  input[type="password"] {
-    -webkit-appearance: none;
-    box-shadow: none;
-  }
-  textarea,
-  input[type="text"],
-  input[type="email"],
-  input[type="search"],
   input[type="password"],
   .select {
     background: #f6f6f6;
@@ -1718,19 +1398,6 @@ All icons Copyright (c) Callum Jefferies 2011
     width: 550px;
     height: 120px;
     font-size: 10pt;
-  }
-  .sidebar input[type="text"],
-  .sidebar input[type="email"],
-  .sidebar input[type="search"],
-  .sidebar textarea {
-    width: 202px;
-  }
-  .sidebar select,
-  .sidebar input {
-    margin-bottom: 10px;
-  }
-  .sidebar ol {
-    margin-left: 20px;
   }
   #content,
   .thin {
@@ -1764,61 +1431,6 @@ All icons Copyright (c) Callum Jefferies 2011
   }
   #menu li.active a {
     color: white;
-  }
-  #content {
-    width: 960px;
-    margin: 0 auto !important;
-    /*overflow: hidden;*/
-  }
-  #content .main_column,
-  #content .sidebar {
-    position: relative;
-  }
-  #content .main_column {
-    float: left;
-    width: 695px;
-  }
-  #content .sidebar {
-    float: right;
-    width: 245px;
-  }
-  ul.collage_images {
-    width: 675px !important;
-  }
-  ul.collage_images li {
-    height: 135px !important;
-    width: 135px !important;
-  }
-  ul.collage_images li a {
-    height: 135px !important;
-    width: 135px !important;
-  }
-  ul.collage_images li a img {
-    height: 135px !important;
-    width: 135px !important;
-  }
-  ul.collage_images li a:hover {
-    position: relative;
-    overflow: visible !important;
-  }
-  ul.collage_images li a:hover img {
-    position: absolute;
-    margin: -80px;
-    z-index: 4;
-    width: 300px !important;
-    height: 300px !important;
-  }
-  #collages,
-  #personal_collages,
-  #collage_table,
-  .forum_index,
-  .torrent_table,
-  .forum_post.box,
-  .recent,
-  table.border,
-  .torrent_table.grouping,
-  #userhistory table {
-    width: 100% !important;
   }
   table[width="100%"],
   .box,
@@ -2163,16 +1775,8 @@ All icons Copyright (c) Callum Jefferies 2011
     background-position: center;
   }
   .forum_post .avatar {
-    padding: 10px;
-    width: 100px !important;
     background: #f6f6f6;
     border-right: 1px solid #ddd;
-  }
-  .forum_post .avatar img {
-    width: 120px !important;
-  }
-  .forum_post .body {
-    padding: 15px;
   }
   body#forums table.forum_post td.body > div,
   body#userhistory table.forum_post td.body > div {
@@ -2256,10 +1860,6 @@ All icons Copyright (c) Callum Jefferies 2011
   #collage div.thin form table:nth-child(2) tr:first-child td {
     padding-top: 0 !important;
   }
-  .filter_torrents table.cat_list td {
-    width: 8% !important;
-    text-align: center !important;
-  }
   .filter_torrents table:nth-child(2) td {
     padding: 17px 0 15px 0 !important;
     background: #e0e0e0;
@@ -2280,9 +1880,6 @@ All icons Copyright (c) Callum Jefferies 2011
     position: relative;
     padding-top: 15px;
   }
-  .filter_torrents .submit input[value="Reset"] {
-    display: none;
-  }
   .filter_torrents .submit span {
     position: absolute;
     left: 20px;
@@ -2290,19 +1887,10 @@ All icons Copyright (c) Callum Jefferies 2011
     color: #777;
     line-height: 24pt;
   }
-  .filter_torrents .submit span:before {
-    content: "";
-  }
-  .filter_torrents .submit span:after {
-    content: "";
-  }
   .filter_torrents .submit input[name="setdefault"],
   .filter_torrents .submit input[name="cleardefault"] {
     float: right;
     margin-left: 8px;
-  }
-  .filter_torrents .cat_list {
-    border: none !important;
   }
   ul#artistcomplete {
     position: absolute;
@@ -2728,12 +2316,7 @@ TODO: Make these rules apply globally and add exceptions where needed
     margin-left: 15px;
   }
   .filter_torrents .head {
-    border: none !important;
     border-bottom: 1px solid #aaa !important;
-  }
-  .filter_torrents input[type="submit"] {
-    display: block;
-    margin: auto;
   }
   .tooltipster-base {
     background-color: #232323;
@@ -2742,33 +2325,6 @@ TODO: Make these rules apply globally and add exceptions where needed
     color: white;
     padding: 0px 0px 0 4px !important;
     transform: translate3d(0px, 10px, 0);
-  }
-  .tooltipster-base .tooltipster-content {
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-  }
-  .tooltipster-arrow {
-    display: none !important;
-  }
-  .vote_tag_up,
-  .vote_tag_down {
-    margin: 0 !important;
-    font-weight: 900;
-  }
-  .vote_tag_up:before,
-  .vote_tag_down:before,
-  .vote_tag_up:after,
-  .vote_tag_down:after {
-    content: "\00a0";
-  }
-  #artist_tr .brackets {
-    margin: 0 4px;
-    font-size: 18px;
-    font-weight: 700;
-    position: relative;
-    top: 2px;
-    left: 5px;
   }
   select {
     background: #EAEAEA;
@@ -2787,30 +2343,8 @@ TODO: Make these rules apply globally and add exceptions where needed
     min-width: 100px;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyCAYAAACqNX6+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNEVDMkY2RkI4QzkxMUU2ODU5OUIwRUIzNkM5RDQ1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNEVDMkY3MEI4QzkxMUU2ODU5OUIwRUIzNkM5RDQ1NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU0RUMyRjZEQjhDOTExRTY4NTk5QjBFQjM2QzlENDU3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU0RUMyRjZFQjhDOTExRTY4NTk5QjBFQjM2QzlENDU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+AoC+oQAAAY9JREFUeNrs3LlxhEAQBdBdcgBXIgrcjYcgZCgI4pFLFEguSbA1qsLY2oujj/+H/lZPtzXzatw+T9NUdF33PQzD5ynilrquf9u2/TqXZXkax/GjaZqfQPHD6Pv+UlXVX5EaqUiNNIjn8cNI52IeBIo/xg1IoPhj3IEEii/GQ5BA8cN4ChIoPhgvQQLFHuMtSKDYYiwCCRQ7jMUggWKDsQokUPQxVoMEii7GJpBA0cPYDBIoOhi7QAJFHmM3SKDIYoiAHB1FEkMM5Kgo0hiiIEdD0cAQBzkKihaGCkjuKJoYaiC5omhjqILkhmKBoQ6SC4oVhgkIO4olhhkIK4o1hikIG4oHhjkIC4oXhgsIOoonhhsIKoo3hisIGgoChjsICgoKBgSINwoSBgyIFwoaBhSINQoiBhyIFQoqBiSINgoyBiyIFgo6BjSINAoDBjyIFAoLBgXIXhQmDBqQrShsGFQga1EYMehAlqKwYlCCvENhxqAFeYbCjpHyv56JOfNqqVSzY2QBMqPMv4b9LlcBBgBnYPCIuEliEAAAAABJRU5ErkJggg==) calc(100% - 8px)/9px no-repeat #EAEAEA;
   }
-  select:focus,
-  select:active {
-    outline: none;
-  }
-  .group_info .tooltip.brackets:before {
-    content: "[";
-  }
-  .group_info .tooltip.brackets:after {
-    content: "]";
-  }
-  .torrent_links_block .tooltip.brackets:before {
-    content: "[";
-  }
-  .torrent_links_block .tooltip.brackets:after {
-    content: "]";
-  }
   .forum_unread {
     border-top: 3px solid #afafaf;
-  }
-  .seeders img,
-  .snatches img,
-  .leechers img {
-    height: 15px;
-    width: auto;
   }
   .edition_info .tooltip {
     background: white;
@@ -2874,7 +2408,7 @@ input[type="password"],
   padding: 8px;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 20px);
   grid-column-gap: 4px;
   grid-row-gap: 4px;
 }
@@ -2966,5 +2500,231 @@ h1.hidden {
 }
 #recommended .brackets {
   float: right;
+}
+#content {
+  width: 960px;
+  margin: 0 auto !important;
+  padding-top: 2rem;
+}
+#content .main_column,
+#content .sidebar {
+  position: relative;
+}
+#content .main_column {
+  float: left;
+  width: 695px;
+}
+#content .sidebar {
+  float: right;
+  width: 245px;
+}
+ul.collage_images {
+  width: 675px !important;
+}
+ul.collage_images li {
+  height: 135px !important;
+  width: 135px !important;
+}
+ul.collage_images li a {
+  height: 135px !important;
+  width: 135px !important;
+}
+ul.collage_images li a:hover {
+  position: relative;
+  overflow: visible !important;
+}
+ul.collage_images li a:hover img {
+  position: absolute;
+  margin: -80px;
+  z-index: 4;
+  width: 300px !important;
+  height: 300px !important;
+}
+ul.collage_images li a img {
+  height: 135px !important;
+  width: 135px !important;
+}
+#collages,
+#personal_collages,
+#collage_table,
+.forum_index,
+.torrent_table,
+.forum_post.box,
+.recent,
+table.border,
+.torrent_table.grouping,
+#userhistory table {
+  width: 100% !important;
+}
+select:focus,
+select:active {
+  outline: none;
+}
+.group_info .tooltip.brackets:before {
+  content: "[";
+}
+.group_info .tooltip.brackets:after {
+  content: "]";
+}
+.torrent_links_block .tooltip.brackets:before {
+  content: "[";
+}
+.torrent_links_block .tooltip.brackets:after {
+  content: "]";
+}
+.tooltipster-arrow {
+  display: none !important;
+}
+.vote_tag_up,
+.vote_tag_down {
+  margin: 0 !important;
+  font-weight: 900;
+}
+.vote_tag_up:before,
+.vote_tag_down:before,
+.vote_tag_up:after,
+.vote_tag_down:after {
+  content: "\00a0";
+}
+.seeders img,
+.snatches img,
+.leechers img {
+  height: 15px;
+  width: auto;
+}
+#artist_tr .brackets {
+  margin: 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+.tooltipster-base .tooltipster-content {
+  font-size: 10px;
+  font-weight: 700;
+}
+.filter_torrents input[type="submit"] {
+  display: block;
+  margin: auto;
+}
+.filter_torrents .head {
+  border: none !important;
+}
+.filter_torrents table.cat_list td {
+  width: 8% !important;
+  text-align: center !important;
+}
+.filter_torrents .submit span:before,
+.filter_torrents .submit span:after {
+  content: "";
+}
+.filter_torrents .submit input[value="Reset"] {
+  display: none;
+}
+.filter_torrents .cat_list {
+  border: none !important;
+}
+.forum_post .body {
+  padding: 15px;
+}
+.forum_post .avatar {
+  padding: 10px;
+  width: 100px !important;
+}
+.forum_post .avatar img {
+  width: 120px !important;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 10px;
+}
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+h3 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+#logo a {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  width: 200px;
+  height: 23px;
+}
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+.size1 {
+  font-size: 0.75em;
+  line-height: normal;
+}
+.size2 {
+  font-size: 1em;
+  line-height: normal;
+}
+.size3 {
+  font-size: 1.25em;
+  line-height: normal;
+}
+.size4 {
+  font-size: 1.5em;
+  line-height: normal;
+}
+.size5 {
+  font-size: 1.75em;
+  line-height: normal;
+}
+.size6 {
+  font-size: 2em;
+  line-height: normal;
+}
+.size7 {
+  font-size: 2.25em;
+  line-height: normal;
+}
+.size8 {
+  font-size: 2.5em;
+  line-height: normal;
+}
+.size9 {
+  font-size: 2.75em;
+  line-height: normal;
+}
+.size10 {
+  font-size: 3em;
+  line-height: normal;
+}
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="search"],
+input[type="password"] {
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+.sidebar input[type="text"],
+.sidebar input[type="email"],
+.sidebar input[type="search"],
+.sidebar textarea {
+  width: 202px;
+}
+.sidebar select,
+.sidebar input {
+  margin-bottom: 10px;
+}
+.sidebar ol {
+  margin-left: 20px;
 }
 /*# sourceMappingURL=red-combined.css.map */

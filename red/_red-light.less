@@ -24,11 +24,7 @@ body {
     background: #f2f2f2 !important;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-bottom: 10px;
-}
+
 
 a {
     text-decoration: none;
@@ -45,33 +41,9 @@ a {
 }
 
 h1,h2,h3 {
-    font-weight: bold;
     color: #444 !important;
 }
-h2 {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 20px;
-}
 
-h3 {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
-
-#logo a {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    width: 200px;
-    height: 23px;
-}
-
-#wrapper {
-    width: 960px;
-    margin: 0 auto;
-}
 
 #footer {
     width: 960px;
@@ -97,17 +69,6 @@ h3 {
 .r20 {color: #418B00;}
 .r50 {color: #418B00;}
 .r99 {color: #418B00;}
-
-.size1 { font-size: 0.75em; line-height: normal; }
-.size2 { font-size: 1em; line-height: normal; }
-.size3 { font-size: 1.25em; line-height: normal; }
-.size4 { font-size: 1.5em; line-height: normal; }
-.size5 { font-size: 1.75em; line-height: normal; }
-.size6 { font-size: 2em; line-height: normal; }
-.size7 { font-size: 2.25em; line-height: normal; }
-.size8 { font-size: 2.5em; line-height: normal; }
-.size9 { font-size: 2.75em; line-height: normal; }
-.size10 { font-size: 3em; line-height: normal; }
 
 #discog_table.torrent_table .colhead_dark td:nth-child(4) {
     width: 15%;
@@ -148,16 +109,6 @@ h3 {
     	font-weight: 700;
     	margin-left: 2px;
 	}
-}
-
-#stats_leeching,
-#stats_required {
-    top: 32px;
-}
-
-#stats_ratio,
-#stats_required {
-    left: 128px;
 }
 
 #discog_table.torrent_table .colhead_dark td:first-child {
@@ -214,14 +165,6 @@ div.thin > h3:first-child {
     margin: 0 0 15px 0px;
 }
 
-textarea,
-input[type="text"],
-input[type="email"],
-input[type="search"],
-input[type="password"] {
-    -webkit-appearance: none;
-    box-shadow: none;
-}
 
 textarea,
 input[type="text"],
@@ -248,21 +191,6 @@ textarea {
     width: 550px;
     height: 120px;
     font-size: 10pt;
-}
-
-.sidebar input[type="text"],
-.sidebar input[type="email"],
-.sidebar input[type="search"],
-.sidebar textarea {
-    width: 202px;
-}
-
-.sidebar select,.sidebar input {
-    margin-bottom: 10px;
-}
-
-.sidebar ol {
-    margin-left: 20px;
 }
 
 #content,.thin {
@@ -300,63 +228,6 @@ textarea {
     }
 }
 
-
-#content {
-    width: 960px;
-    margin: 0 auto !important;
-    /*overflow: hidden;*/
-}
-
-#content .main_column,
-#content .sidebar {
-    position: relative;
-}
-
-#content .main_column {
-    float: left;
-    width: 695px;
-}
-
-#content .sidebar {
-    float: right;
-    width: 245px;
-}
-
-ul.collage_images {
-    width: 675px !important;
-}
-
-ul.collage_images li {
-    height: 135px !important;
-    width: 135px !important;
-}
-
-ul.collage_images li a {
-    height: 135px !important;
-    width: 135px !important;
-}
-
-ul.collage_images li a img {
-    height: 135px !important;
-    width: 135px !important;
-}
-
-ul.collage_images li a:hover {
-    position: relative;
-    overflow: visible !important;
-}
-
-ul.collage_images li a:hover img {
-    position: absolute;
-    margin: -80px;
-    z-index: 4;
-    width: 300px !important;
-    height: 300px !important;
-}
-
-#collages,#personal_collages,#collage_table,.forum_index,.torrent_table,.forum_post.box,.recent,table.border,.torrent_table.grouping,#userhistory table {
-    width: 100% !important;
-}
 
 table[width="100%"],.box,.box2,.torrent_table,#log_table,#request_table,#collages,.forum_index,table.border,.linkbox+table,form#messageform table ,.main_column table ,form[action="user.php"] table,table.staff,#userhistory table {
     margin-bottom: 20px;
@@ -675,7 +546,11 @@ table.forum_index tr td:nth-child(3) .last_topic a,td.unread+td >h4 a,td.unread+
     color: #626262;
 }
 
-td.read+td >h4 a,td.read+td >span.last_topic strong a,td.read_locked+td >span.last_topic strong a,td.read_sticky+td >span.last_topic strong a,td.read_locked_sticky+td >span.last_topic strong a {
+td.read+td >h4 a,
+td.read+td >span.last_topic strong a,
+td.read_locked+td >span.last_topic strong a,
+td.read_sticky+td >span.last_topic strong a,
+td.read_locked_sticky+td >span.last_topic strong a {
     color: #888;
 }
 
@@ -690,18 +565,8 @@ span.last_read a {
 }
 
 .forum_post .avatar {
-    padding: 10px;
-    width: 100px !important;
     background: #f6f6f6;
     border-right: 1px solid #ddd;
-}
-
-.forum_post .avatar img {
-    width: 120px !important;
-}
-
-.forum_post .body {
-    padding: 15px;
 }
 
 body#forums table.forum_post td.body > div, body#userhistory table.forum_post td.body > div { /* Wide main column (forums, user history) */
@@ -788,10 +653,7 @@ td.label {
     padding-top: 0 !important;
 }
 
-.filter_torrents table.cat_list td {
-    width: 8% !important;
-    text-align: center !important;
-}
+
 
 .filter_torrents table:nth-child(2) td {
     padding: 17px 0 15px 0 !important;
@@ -816,9 +678,6 @@ div.thin form.search_form table td.label,.filter_torrents table td:first-child {
     padding-top: 15px;
 }
 
-.filter_torrents .submit input[value="Reset"] {
-    display: none;
-}
 
 .filter_torrents .submit span {
     position: absolute;
@@ -828,22 +687,12 @@ div.thin form.search_form table td.label,.filter_torrents table td:first-child {
     line-height: 24pt;
 }
 
-.filter_torrents .submit span:before {
-    content: "";
-}
-
-.filter_torrents .submit span:after {
-    content: "";
-}
 
 .filter_torrents .submit input[name="setdefault"],.filter_torrents .submit input[name="cleardefault"] {
     float: right;
     margin-left: 8px;
 }
 
-.filter_torrents .cat_list {
-    border: none !important;
-}
 
 ul#artistcomplete {
     position: absolute;
@@ -1332,15 +1181,9 @@ input[type="radio"] + label {
 }
 
 .filter_torrents .head {
-    border: none !important;
     border-bottom: 1px solid #aaa !important;
 }
 
-
-.filter_torrents input[type="submit"] {
-    display: block;
-    margin: auto;
-}
 
 .tooltipster-base {
     background-color: #232323;
@@ -1352,33 +1195,6 @@ input[type="radio"] + label {
     transform: translate3d(0px, 10px, 0);
 }
 
-.tooltipster-base .tooltipster-content {
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 700;    
-}
-
-.tooltipster-arrow {
-    display: none !important;
-}
-
-.vote_tag_up, .vote_tag_down {
-    margin: 0 !important;
-    font-weight: 900;
-}
-
-.vote_tag_up:before, .vote_tag_down:before, .vote_tag_up:after, .vote_tag_down:after{
-    content: "\00a0";
-}
-
-#artist_tr .brackets {
-    margin: 0 4px;
-    font-size: 18px;
-    font-weight: 700;
-    position: relative;
-    top: 2px;
-    left: 5px;
-}
 
 select {
     background: #EAEAEA;
@@ -1398,35 +1214,8 @@ select {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAyCAYAAACqNX6+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpFNEVDMkY2RkI4QzkxMUU2ODU5OUIwRUIzNkM5RDQ1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpFNEVDMkY3MEI4QzkxMUU2ODU5OUIwRUIzNkM5RDQ1NyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkU0RUMyRjZEQjhDOTExRTY4NTk5QjBFQjM2QzlENDU3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkU0RUMyRjZFQjhDOTExRTY4NTk5QjBFQjM2QzlENDU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+AoC+oQAAAY9JREFUeNrs3LlxhEAQBdBdcgBXIgrcjYcgZCgI4pFLFEguSbA1qsLY2oujj/+H/lZPtzXzatw+T9NUdF33PQzD5ynilrquf9u2/TqXZXkax/GjaZqfQPHD6Pv+UlXVX5EaqUiNNIjn8cNI52IeBIo/xg1IoPhj3IEEii/GQ5BA8cN4ChIoPhgvQQLFHuMtSKDYYiwCCRQ7jMUggWKDsQokUPQxVoMEii7GJpBA0cPYDBIoOhi7QAJFHmM3SKDIYoiAHB1FEkMM5Kgo0hiiIEdD0cAQBzkKihaGCkjuKJoYaiC5omhjqILkhmKBoQ6SC4oVhgkIO4olhhkIK4o1hikIG4oHhjkIC4oXhgsIOoonhhsIKoo3hisIGgoChjsICgoKBgSINwoSBgyIFwoaBhSINQoiBhyIFQoqBiSINgoyBiyIFgo6BjSINAoDBjyIFAoLBgXIXhQmDBqQrShsGFQga1EYMehAlqKwYlCCvENhxqAFeYbCjpHyv56JOfNqqVSzY2QBMqPMv4b9LlcBBgBnYPCIuEliEAAAAABJRU5ErkJggg==) calc(100% - 8px)/9px no-repeat #EAEAEA;
 }
 
-select:focus, select:active {
-    outline: none;
-}
-
-.group_info .tooltip.brackets:before {
-    content: "[";
-}
-
-.group_info .tooltip.brackets:after {
-    content: "]";
-}
-
-.torrent_links_block .tooltip.brackets:before {
-    content: "[";
-}
-
-.torrent_links_block .tooltip.brackets:after {
-    content: "]";
-}
-
 .forum_unread {
     border-top: 3px solid #afafaf;
-}
-
-.seeders img,
-.snatches img,
-.leechers img {
-    height: 15px;
-    width: auto;
 }
 
 .edition_info .tooltip {

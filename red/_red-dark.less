@@ -27,12 +27,6 @@ body {
     color: #eee;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-bottom: 10px;
-}
-
 a {
     text-decoration: none;
     color: #cbe4fd;
@@ -48,33 +42,11 @@ a {
 }
 
 h1,h2,h3 {
-    font-weight: bold;
     color: #efefef !important;
 }
-h2 {
-    margin-bottom: 20px;
-    font-size: 16px;
-    line-height: 20px;
-}
 
-h3 {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 20px;
-}
 
-#logo a {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    width: 200px;
-    height: 23px;
-}
 
-#wrapper {
-    width: 960px;
-    margin: 0 auto;
-}
 
 #footer {
     width: 960px;
@@ -116,17 +88,6 @@ h3 {
 .r20 {color: #ddd;}
 .r50 {color: #ddd;}
 .r99 {color: #ddd;}
-
-.size1 { font-size: 0.75em; line-height: normal; }
-.size2 { font-size: 1em; line-height: normal; }
-.size3 { font-size: 1.25em; line-height: normal; }
-.size4 { font-size: 1.5em; line-height: normal; }
-.size5 { font-size: 1.75em; line-height: normal; }
-.size6 { font-size: 2em; line-height: normal; }
-.size7 { font-size: 2.25em; line-height: normal; }
-.size8 { font-size: 2.5em; line-height: normal; }
-.size9 { font-size: 2.75em; line-height: normal; }
-.size10 { font-size: 3em; line-height: normal; }
 
 #discog_table.torrent_table .colhead_dark td:nth-child(4) {
     width: 15%;
@@ -170,15 +131,6 @@ h3 {
 	a {
     	color: #f4f4f4;
 	}
-}
-#stats_leeching,
-#stats_required {
-    top: 32px;
-}
-
-#stats_ratio,
-#stats_required {
-    left: 128px;
 }
 
 
@@ -241,15 +193,6 @@ textarea,
 input[type="text"],
 input[type="email"],
 input[type="search"],
-input[type="password"] {
-    -webkit-appearance: none;
-    box-shadow: none;
-}
-
-textarea,
-input[type="text"],
-input[type="email"],
-input[type="search"],
 input[type="password"],
 .select {
     background: #5c5c5c;
@@ -270,11 +213,6 @@ input[type="password"]:focus {
   color: #ccc !important;
 }
 
-*:-moz-placeholder {
-  /* Firefox 18- */
-  color: #ccc !important;
-  opacity: 1;
-}
 
 *::-moz-placeholder {
   /* Firefox 19+ */
@@ -282,9 +220,6 @@ input[type="password"]:focus {
   opacity: 1;
 }
 
-*:-ms-input-placeholder {
-  color: #ccc !important;
-}
 
 textarea {
     resize: none;
@@ -294,20 +229,6 @@ textarea {
     font-size: 12px;
 }
 
-.sidebar input[type="text"],
-.sidebar input[type="email"],
-.sidebar input[type="search"],
-.sidebar textarea {
-    width: 202px;
-}
-
-.sidebar select,.sidebar input {
-    margin-bottom: 10px;
-}
-
-.sidebar ol {
-    margin-left: 20px;
-}
 
 #content,.thin {
     /*overflow: hidden;*/
@@ -341,64 +262,6 @@ textarea {
     		}
     	}
     }
-}
-
-
-#content {
-    width: 960px;
-    margin: 0 auto !important;
-    /*overflow: hidden;*/
-}
-
-#content .main_column,
-#content .sidebar {
-    position: relative;
-}
-
-#content .main_column {
-    float: left;
-    width: 695px;
-}
-
-#content .sidebar {
-    float: right;
-    width: 245px;
-}
-
-ul.collage_images {
-    width: 675px !important;
-}
-
-ul.collage_images li {
-    height: 135px !important;
-    width: 135px !important;
-}
-
-ul.collage_images li a {
-    height: 135px !important;
-    width: 135px !important;
-}
-
-ul.collage_images li a img {
-    height: 135px !important;
-    width: 135px !important;
-}
-
-ul.collage_images li a:hover {
-    position: relative;
-    overflow: visible !important;
-}
-
-ul.collage_images li a:hover img {
-    position: absolute;
-    margin: -80px;
-    z-index: 4;
-    width: 300px !important;
-    height: 300px !important;
-}
-
-#collages,#personal_collages,#collage_table,.forum_index,.torrent_table,.forum_post.box,.recent,table.border,.torrent_table.grouping,#userhistory table {
-    width: 100% !important;
 }
 
 table[width="100%"],.box,.box2,.torrent_table,#log_table,#request_table,#collages,.forum_index,table.border,.linkbox+table,form#messageform table ,.main_column table ,form[action="user.php"] table,table.staff,#userhistory table {
@@ -730,18 +593,8 @@ span.last_read a {
 }
 
 .forum_post .avatar {
-    padding: 10px;
-    width: 100px !important;
     background: #444;
     border-right: 1px solid #4f4f4f;
-}
-
-.forum_post .avatar img {
-    width: 120px !important;
-}
-
-.forum_post .body {
-    padding: 15px;
 }
 
 body#forums table.forum_post td.body > div, body#userhistory table.forum_post td.body > div { /* Wide main column (forums, user history) */
@@ -828,10 +681,6 @@ td.label {
     padding-top: 0 !important;
 }
 
-.filter_torrents table.cat_list td {
-    width: 8% !important;
-    text-align: center !important;
-}
 
 .filter_torrents table:nth-child(2) td {
     padding: 17px 0 15px 0 !important;
@@ -856,9 +705,6 @@ div.thin form.search_form table td.label,.filter_torrents table td:first-child {
     padding-top: 15px;
 }
 
-.filter_torrents .submit input[value="Reset"] {
-    display: none;
-}
 
 .filter_torrents .submit span {
     position: absolute;
@@ -868,22 +714,12 @@ div.thin form.search_form table td.label,.filter_torrents table td:first-child {
     line-height: 24pt;
 }
 
-.filter_torrents .submit span:before {
-    content: "";
-}
-
-.filter_torrents .submit span:after {
-    content: "";
-}
 
 .filter_torrents .submit input[name="setdefault"],.filter_torrents .submit input[name="cleardefault"] {
     float: right;
     margin-left: 8px;
 }
 
-.filter_torrents .cat_list {
-    border: none !important;
-}
 
 ul#artistcomplete {
     position: absolute;
@@ -1361,15 +1197,9 @@ input[type="radio"] + label {
 }
 
 .filter_torrents .head {
-    border: none !important;
     border-bottom: 1px solid #4f4f4f !important;
 }
 
-
-.filter_torrents input[type="submit"] {
-    display: block;
-    margin: auto;
-}
 
 .tooltipster-base {
     background-color: #232323;
@@ -1379,25 +1209,6 @@ input[type="radio"] + label {
     padding: 0px 0px 0 4px !important;
      -webkit-transform: translate3d(0px, 10px, 0);
     transform: translate3d(0px, 10px, 0);
-}
-
-.tooltipster-base .tooltipster-content {
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 700;    
-}
-
-.tooltipster-arrow {
-    display: none !important;
-}
-
-.vote_tag_up, .vote_tag_down {
-    margin: 0 !important;
-    font-weight: 900;
-}
-
-.vote_tag_up:before, .vote_tag_down:before, .vote_tag_up:after, .vote_tag_down:after{
-    content: "\00a0";
 }
 
 .noty_buttons a {
@@ -1422,14 +1233,6 @@ strong.important_text_alt {
     font-weight: bold;
 }
 
-#artist_tr .brackets {
-    margin: 0 4px;
-    font-size: 18px;
-    font-weight: 700;
-    position: relative;
-    top: 2px;
-    left: 5px;
-}
 
 .autocomplete-suggestions {
     margin-top: 5px;
@@ -1466,37 +1269,11 @@ select {
 
 }
 
-select:focus, select:active {
-    outline: none;
-}
-
-
-.group_info .tooltip.brackets:before {
-    content: "[";
-}
-
-.group_info .tooltip.brackets:after {
-    content: "]";
-}
-
-.torrent_links_block .tooltip.brackets:before {
-    content: "[";
-}
-
-.torrent_links_block .tooltip.brackets:after {
-    content: "]";
-}
 
 .forum_unread {
     border-top: 2px solid #c5c7ca;
 }
 
-.seeders img,
-.snatches img,
-.leechers img {
-    height: 15px;
-    width: auto;
-}
 .edition_info .tooltip {
     background: white;
     border-radius: 50%;

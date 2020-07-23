@@ -1201,6 +1201,10 @@ Date:    23/01/2011
   .torrentdetails {
     background-color: #343434;
   }
+  .torrent_action_buttons a {
+    background: white;
+    color: black;
+  }
 }
 @media (prefers-color-scheme: light) {
   /*
@@ -2349,7 +2353,11 @@ TODO: Make these rules apply globally and add exceptions where needed
     margin-right: 5px;
   }
   .torrentdetails {
-    background-color: #343434;
+    background-color: #f2f2f2;
+  }
+  .torrent_action_buttons a {
+    background: #3b7ab0;
+    color: white;
   }
 }
 .vote_matches_table {
@@ -2726,5 +2734,12 @@ input[type="password"] {
   border-radius: 50%;
   padding: 3px 6px;
   margin-right: 5px;
+  text-decoration: none;
+}
+.torrent_action_buttons a {
+  padding: 0 4px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: -2px;
 }
 /*# sourceMappingURL=red-combined.css.map */

@@ -1196,10 +1196,7 @@ Date:    23/01/2011
   }
   .edition_info .tooltip {
     background: white;
-    border-radius: 50%;
-    padding: 3px 6px;
     color: #FB574C;
-    margin-right: 5px;
   }
   .torrentdetails {
     background-color: #343434;
@@ -2347,10 +2344,8 @@ TODO: Make these rules apply globally and add exceptions where needed
     border-top: 3px solid #afafaf;
   }
   .edition_info .tooltip {
-    background: white;
-    border-radius: 50%;
-    padding: 3px 6px;
-    color: #FB574C;
+    background: #FB574C;
+    color: white;
     margin-right: 5px;
   }
   .torrentdetails {
@@ -2726,5 +2721,10 @@ input[type="password"] {
 }
 .sidebar ol {
   margin-left: 20px;
+}
+.edition_info .tooltip {
+  border-radius: 50%;
+  padding: 3px 6px;
+  margin-right: 5px;
 }
 /*# sourceMappingURL=red-combined.css.map */

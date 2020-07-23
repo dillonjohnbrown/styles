@@ -2353,7 +2353,6 @@ TODO: Make these rules apply globally and add exceptions where needed
   .edition_info .tooltip {
     background: #FB574C;
     color: white;
-    margin-right: 5px;
   }
   .torrentdetails {
     background-color: #f2f2f2;
@@ -2394,7 +2393,7 @@ TODO: Make these rules apply globally and add exceptions where needed
   }
   .tl_snatched {
     color: #6f5e00;
-    box-shadow: 5px 4px 0 gold;
+    box-shadow: 3px 3px 0 gold;
     border: 2px solid gold;
     padding: 1px 4px;
     background-color: rgba(255, 215, 0, 0.5);
@@ -2781,10 +2780,13 @@ input[type="password"] {
 }
 .torrent_action_buttons a {
   padding: 0 4px;
-  border-radius: 3px;
   font-weight: bold;
   margin: -2px;
   text-decoration: none;
   transition: all 1s ease;
+  box-shadow: none;
+}
+.torrent_action_buttons a:hover {
+  box-shadow: 3px 3px 0 gold;
 }
 /*# sourceMappingURL=red-combined.css.map */

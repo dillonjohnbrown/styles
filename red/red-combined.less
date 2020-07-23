@@ -376,10 +376,13 @@ input[type="password"] {
 .torrent_action_buttons {
 	a {
 		padding: 0 4px;
-		border-radius: 3px;
 		font-weight: bold;
 		margin: -2px;
 		text-decoration: none;
 		transition: all 1s ease;
+		box-shadow: none;
+		&:hover {
+			box-shadow: 3px 3px 0 gold;
+		}
 	}
 }

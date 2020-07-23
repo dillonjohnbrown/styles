@@ -1201,6 +1201,9 @@ Date:    23/01/2011
   .torrentdetails {
     background-color: #343434;
   }
+  .torrent_action_buttons {
+    color: white;
+  }
   .torrent_action_buttons a {
     background: white;
     color: black;
@@ -2355,9 +2358,39 @@ TODO: Make these rules apply globally and add exceptions where needed
   .torrentdetails {
     background-color: #f2f2f2;
   }
+  .torrent_action_buttons {
+    color: white;
+  }
   .torrent_action_buttons a {
     background: #3b7ab0;
     color: white;
+  }
+  .button_fl:hover {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    -webkit-animation: rainbow 18s ease infinite;
+            animation: rainbow 18s ease infinite;
+  }
+  @-webkit-keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
+  }
+  @keyframes rainbow {
+    0% {
+      background-position: 0% 82%;
+    }
+    50% {
+      background-position: 100% 19%;
+    }
+    100% {
+      background-position: 0% 82%;
+    }
   }
 }
 .vote_matches_table {

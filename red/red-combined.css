@@ -2392,6 +2392,13 @@ TODO: Make these rules apply globally and add exceptions where needed
       background-position: 0% 82%;
     }
   }
+  .tl_snatched {
+    color: #6f5e00;
+    box-shadow: 5px 4px 0 gold;
+    border: 2px solid gold;
+    padding: 1px 4px;
+    background-color: rgba(255, 215, 0, 0.5);
+  }
 }
 .vote_matches_table {
   min-width: 695px;
@@ -2774,5 +2781,7 @@ input[type="password"] {
   border-radius: 3px;
   font-weight: bold;
   margin: -2px;
+  text-decoration: none;
+  transition: all 1s ease;
 }
 /*# sourceMappingURL=red-combined.css.map */

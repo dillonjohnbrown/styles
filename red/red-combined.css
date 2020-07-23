@@ -2770,11 +2770,14 @@ input[type="password"] {
 .sidebar ol {
   margin-left: 20px;
 }
+.edition_info {
+  padding: 8px 0 !important;
+}
 .edition_info .tooltip {
-  border-radius: 50%;
   padding: 3px 6px;
   margin-right: 5px;
   text-decoration: none;
+  font-weight: bolder;
 }
 .torrent_action_buttons a {
   padding: 0 4px;

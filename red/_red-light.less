@@ -503,7 +503,14 @@ body#index #recommended #vanityhouse {
     list-style: none;
 }
 
-td.unread,td.read,td.read_locked,td.unread_locked,td.unread_sticky,td.read_locked_sticky,td.unread_locked_sticky,td.read_sticky {
+td.unread,
+td.read,
+td.read_locked,
+td.unread_locked,
+td.unread_sticky,
+td.read_locked_sticky,
+td.unread_locked_sticky,
+td.read_sticky {
     width: 3.5%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1237,7 +1244,6 @@ select {
 .button_fl {
 	&:hover {
 		 background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-		 animation: rainbow 18s ease infinite;
 	}
 }
 .button_rp {
@@ -1245,11 +1251,6 @@ select {
 .button_rp {
 }
 
-@keyframes rainbow {
-  0% { background-position: 0% 82%; }
-  50% { background-position: 100% 19%; }
-  100% { background-position: 0% 82%; }
-}
 .tl_snatched {
 	color: rgb(111, 94, 0);
 	box-shadow: 3px 3px 0 gold;

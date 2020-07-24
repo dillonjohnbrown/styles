@@ -2366,30 +2366,6 @@ TODO: Make these rules apply globally and add exceptions where needed
   }
   .button_fl:hover {
     background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    -webkit-animation: rainbow 18s ease infinite;
-            animation: rainbow 18s ease infinite;
-  }
-  @-webkit-keyframes rainbow {
-    0% {
-      background-position: 0% 82%;
-    }
-    50% {
-      background-position: 100% 19%;
-    }
-    100% {
-      background-position: 0% 82%;
-    }
-  }
-  @keyframes rainbow {
-    0% {
-      background-position: 0% 82%;
-    }
-    50% {
-      background-position: 100% 19%;
-    }
-    100% {
-      background-position: 0% 82%;
-    }
   }
   .tl_snatched {
     color: #6f5e00;

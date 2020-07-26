@@ -2053,7 +2053,6 @@ All icons Copyright (c) Callum Jefferies 2011
     border-bottom-color: #bbb !important;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4);
-    font: bold 10pt Lato, Helvetica, Arial, sans-serif !important;
     color: #575757 !important;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   }
@@ -2093,10 +2092,8 @@ All icons Copyright (c) Callum Jefferies 2011
   .nobr {
     white-space: nowrap;
   }
+  tr.torrent .bookmark > a:after,
   tr.torrent .bookmark > a:before {
-    content: "";
-  }
-  tr.torrent .bookmark > a:after {
     content: "";
   }
   /* Fixes by Trico beyond here. All credit for the style sheet goes to callumj */

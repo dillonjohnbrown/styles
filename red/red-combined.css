@@ -310,7 +310,6 @@ Date:    23/01/2011
   table[width="100%"] td,
   .torrent_table td,
   #requests td,
-  #collages td,
   .forum_index td,
   table.border td,
   .linkbox + table td,
@@ -1487,7 +1486,6 @@ All icons Copyright (c) Callum Jefferies 2011
   table[width="100%"] td,
   .torrent_table td,
   #requests td,
-  #collages td,
   .forum_index td,
   table.border td,
   .linkbox + table td,
@@ -1839,8 +1837,7 @@ All icons Copyright (c) Callum Jefferies 2011
   div.thin .header + .linkbox + div table {
     border: none;
     background: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
+    box-shadow: none;
   }
   div.thin form.search_form table td,
   div.thin .header + .linkbox + div table td,
@@ -2756,6 +2753,10 @@ input[type="password"] {
 }
 .torrent_action_buttons a:hover {
   box-shadow: 3px 3px 0 gold;
+}
+.collage_table .colhead a,
+.vote_matches_table .colhead a {
+  float: right;
 }
 .collage_table .colhead a:first-child,
 .vote_matches_table .colhead a:first-child {

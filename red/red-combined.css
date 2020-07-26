@@ -276,8 +276,6 @@ Date:    23/01/2011
     padding: 10px;
     background: #444;
     border: 1px solid #4f4f4f;
-    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     color: #fafafa;
   }
   .search_form .box {
@@ -1455,8 +1453,6 @@ All icons Copyright (c) Callum Jefferies 2011
     padding: 10px;
     background: #fff;
     border: 1px solid #aeaeae;
-    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
     color: #565656;
   }
   .search_form .box {
@@ -2760,5 +2756,9 @@ input[type="password"] {
 }
 .torrent_action_buttons a:hover {
   box-shadow: 3px 3px 0 gold;
+}
+.collage_table .colhead a:first-child,
+.vote_matches_table .colhead a:first-child {
+  display: none;
 }
 /*# sourceMappingURL=red-combined.css.map */
